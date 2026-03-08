@@ -1,0 +1,1065 @@
+matrix_A_bottom:
+    x: 0
+    'y': 0
+    r: 0
+    meta:
+        stagger: 0
+        spread: 18.619
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 20.5
+        height: 20.5
+        padding: 21.5
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: A_bottom
+        name: matrix_A_bottom
+        zone:
+            key:
+                spread: hex_spread
+                padding: u
+            columns:
+                A:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: A
+                B:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: B
+                C:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: C
+                D:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: D
+                E:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: E
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: 0
+            rows: {}
+            name: A
+        row: bottom
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+matrix_A_home:
+    x: 0
+    'y': 21.5
+    r: 0
+    meta:
+        stagger: 0
+        spread: 18.619
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 20.5
+        height: 20.5
+        padding: 21.5
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: A_home
+        name: matrix_A_home
+        zone:
+            key:
+                spread: hex_spread
+                padding: u
+            columns:
+                A:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: A
+                B:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: B
+                C:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: C
+                D:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: D
+                E:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: E
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: 0
+            rows: {}
+            name: A
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+matrix_A_top:
+    x: 0
+    'y': 43
+    r: 0
+    meta:
+        stagger: 0
+        spread: 18.619
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 20.5
+        height: 20.5
+        padding: 21.5
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: A_top
+        name: matrix_A_top
+        zone:
+            key:
+                spread: hex_spread
+                padding: u
+            columns:
+                A:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: A
+                B:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: B
+                C:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: C
+                D:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: D
+                E:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: E
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: 0
+            rows: {}
+            name: A
+        row: top
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+matrix_B_bottom:
+    x: 18.619
+    'y': 21.5
+    r: 0
+    meta:
+        stagger: 21.5
+        spread: 18.619
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 20.5
+        height: 20.5
+        padding: 21.5
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: B_bottom
+        name: matrix_B_bottom
+        zone:
+            key:
+                spread: hex_spread
+                padding: u
+            columns:
+                A:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: A
+                B:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: B
+                C:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: C
+                D:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: D
+                E:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: E
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: hex_stagger
+            rows: {}
+            name: B
+        row: bottom
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+matrix_B_home:
+    x: 18.619
+    'y': 43
+    r: 0
+    meta:
+        stagger: 21.5
+        spread: 18.619
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 20.5
+        height: 20.5
+        padding: 21.5
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: B_home
+        name: matrix_B_home
+        zone:
+            key:
+                spread: hex_spread
+                padding: u
+            columns:
+                A:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: A
+                B:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: B
+                C:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: C
+                D:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: D
+                E:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: E
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: hex_stagger
+            rows: {}
+            name: B
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_B_top:
+    x: 18.619
+    'y': 64.5
+    r: 0
+    meta:
+        stagger: 21.5
+        spread: 18.619
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 20.5
+        height: 20.5
+        padding: 21.5
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: B_top
+        name: matrix_B_top
+        zone:
+            key:
+                spread: hex_spread
+                padding: u
+            columns:
+                A:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: A
+                B:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: B
+                C:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: C
+                D:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: D
+                E:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: E
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: hex_stagger
+            rows: {}
+            name: B
+        row: top
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+matrix_C_bottom:
+    x: 37.238
+    'y': 43
+    r: 0
+    meta:
+        stagger: 21.5
+        spread: 18.619
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 20.5
+        height: 20.5
+        padding: 21.5
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: C_bottom
+        name: matrix_C_bottom
+        zone:
+            key:
+                spread: hex_spread
+                padding: u
+            columns:
+                A:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: A
+                B:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: B
+                C:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: C
+                D:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: D
+                E:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: E
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: hex_stagger
+            rows: {}
+            name: C
+        row: bottom
+        bind:
+            - 10
+            - 10
+            - 0
+            - 10
+matrix_C_home:
+    x: 37.238
+    'y': 64.5
+    r: 0
+    meta:
+        stagger: 21.5
+        spread: 18.619
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 20.5
+        height: 20.5
+        padding: 21.5
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: C_home
+        name: matrix_C_home
+        zone:
+            key:
+                spread: hex_spread
+                padding: u
+            columns:
+                A:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: A
+                B:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: B
+                C:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: C
+                D:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: D
+                E:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: E
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: hex_stagger
+            rows: {}
+            name: C
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_C_top:
+    x: 37.238
+    'y': 86
+    r: 0
+    meta:
+        stagger: 21.5
+        spread: 18.619
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 20.5
+        height: 20.5
+        padding: 21.5
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: C_top
+        name: matrix_C_top
+        zone:
+            key:
+                spread: hex_spread
+                padding: u
+            columns:
+                A:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: A
+                B:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: B
+                C:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: C
+                D:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: D
+                E:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: E
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: hex_stagger
+            rows: {}
+            name: C
+        row: top
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+matrix_D_bottom:
+    x: 55.857
+    'y': 21.5
+    r: 0
+    meta:
+        stagger: -21.5
+        spread: 18.619
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 20.5
+        height: 20.5
+        padding: 21.5
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: D_bottom
+        name: matrix_D_bottom
+        zone:
+            key:
+                spread: hex_spread
+                padding: u
+            columns:
+                A:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: A
+                B:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: B
+                C:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: C
+                D:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: D
+                E:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: E
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: '-hex_stagger'
+            rows: {}
+            name: D
+        row: bottom
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+matrix_D_home:
+    x: 55.857
+    'y': 43
+    r: 0
+    meta:
+        stagger: -21.5
+        spread: 18.619
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 20.5
+        height: 20.5
+        padding: 21.5
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: D_home
+        name: matrix_D_home
+        zone:
+            key:
+                spread: hex_spread
+                padding: u
+            columns:
+                A:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: A
+                B:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: B
+                C:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: C
+                D:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: D
+                E:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: E
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: '-hex_stagger'
+            rows: {}
+            name: D
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_D_top:
+    x: 55.857
+    'y': 64.5
+    r: 0
+    meta:
+        stagger: -21.5
+        spread: 18.619
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 20.5
+        height: 20.5
+        padding: 21.5
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: D_top
+        name: matrix_D_top
+        zone:
+            key:
+                spread: hex_spread
+                padding: u
+            columns:
+                A:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: A
+                B:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: B
+                C:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: C
+                D:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: D
+                E:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: E
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: '-hex_stagger'
+            rows: {}
+            name: D
+        row: top
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+matrix_E_bottom:
+    x: 74.476
+    'y': 0
+    r: 0
+    meta:
+        stagger: -21.5
+        spread: 18.619
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 20.5
+        height: 20.5
+        padding: 21.5
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: E_bottom
+        name: matrix_E_bottom
+        zone:
+            key:
+                spread: hex_spread
+                padding: u
+            columns:
+                A:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: A
+                B:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: B
+                C:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: C
+                D:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: D
+                E:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: E
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: '-hex_stagger'
+            rows: {}
+            name: E
+        row: bottom
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+matrix_E_home:
+    x: 74.476
+    'y': 21.5
+    r: 0
+    meta:
+        stagger: -21.5
+        spread: 18.619
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 20.5
+        height: 20.5
+        padding: 21.5
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: E_home
+        name: matrix_E_home
+        zone:
+            key:
+                spread: hex_spread
+                padding: u
+            columns:
+                A:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: A
+                B:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: B
+                C:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: C
+                D:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: D
+                E:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: E
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: '-hex_stagger'
+            rows: {}
+            name: E
+        row: home
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+matrix_E_top:
+    x: 74.476
+    'y': 43
+    r: 0
+    meta:
+        stagger: -21.5
+        spread: 18.619
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 20.5
+        height: 20.5
+        padding: 21.5
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: E_top
+        name: matrix_E_top
+        zone:
+            key:
+                spread: hex_spread
+                padding: u
+            columns:
+                A:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: A
+                B:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: B
+                C:
+                    key:
+                        stagger: hex_stagger
+                    rows: {}
+                    name: C
+                D:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: D
+                E:
+                    key:
+                        stagger: '-hex_stagger'
+                    rows: {}
+                    name: E
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: '-hex_stagger'
+            rows: {}
+            name: E
+        row: top
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10

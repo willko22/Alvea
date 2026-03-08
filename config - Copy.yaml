@@ -1,0 +1,203 @@
+meta:
+  engine: 4.1.0
+units:
+  # Key spacing
+  kx: cx # 18
+  ky: cy # 17
+
+  # Halfs
+  hx: kx / 2
+  hy: ky / 2
+
+  # Key padding
+  p: 1
+  px: kx + p
+  py: ky + p
+
+  kxl: 1.5kx
+  kyl: ky
+
+  mcu_x: 0
+  mcu_y: 0
+
+
+points:
+  zones:
+    matrix:
+      anchor:
+        shift: [50, -100]
+      key:
+        spread: px
+        padding: py
+      columns:
+        pinky:
+        ring:
+          key.stagger:  hx
+        middle:
+          key.stagger:  hx + 2
+        index:
+          key.stagger: -hx 
+        inner:
+          key.stagger: -hx - 2
+
+      rows:
+        bottom:
+        home:
+        top:
+    thumb:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [5, -px - 3]
+      key:
+        spread: px
+        height: ky
+        width: kx
+      columns:
+        inner:
+          key:
+            splay: 28
+        middle:
+          key:
+            splay: -28
+            origin: [-20, -6]
+        outer:
+          key:
+            height: kxl + p
+            width: py
+            splay: -28
+            origin: [-kxl/1.5, -6]
+      rows:
+        cluster:
+
+    special:
+      key:
+        spread: px
+      anchor:
+        ref: matrix_inner_home
+        shift: [px,0]
+      columns:
+        other:
+        power:
+          key:
+            spread: px + 14
+      rows:
+        cluster:
+      
+
+#  mirror: &mirror
+#    ref: matrix_inner_home
+#    distance: 10kx
+
+outlines:
+  raw:
+    - what: rectangle
+      where: true
+      size: [px-0.5, py-0.5]
+  switches:
+  - what: rectangle
+    where: true
+    size: [15, 15]
+  thumb:
+    - what: rectangle
+      where: thumb_outer_cluster
+      size: [kyl+p, kxl +p]
+
+  keys:
+    - what: rectangle
+      where: true
+      size: [17.5, 16.5]
+
+  board:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: special_power_cluster
+          shift: [px/2,py]
+
+        - ref: special_other_cluster
+          shift: [px/2,py]
+
+
+
+
+
+        - ref: matrix_middle_top
+          shift: [px/2,py/2+2]
+        - ref: matrix_middle_top
+          shift: [-px/2,py/2+2]
+
+
+        - ref: matrix_pinky_top
+          shift: [-px/2,py/2]
+
+        - ref: matrix_pinky_bottom
+          shift: [-px/2,-py/2]
+        - ref: matrix_pinky_bottom
+          shift: [px/2,-py/2]
+
+        - ref: matrix_inner_bottom
+          shift: [-px/2,-py/2]
+
+        - ref: thumb_inner_cluster
+          shift: [-px/2,py/2]
+
+        - ref: thumb_inner_cluster
+          shift: [-px/2,-py/2]
+
+        - ref: thumb_outer_cluster
+          shift: [-px/2,-py/3*2 - 2]
+        - ref: thumb_outer_cluster
+          shift: [px/2,-py/3*2 - 2]
+        - ref: thumb_outer_cluster
+          shift: [px/2,py/3*2]
+      expand: 3
+      fillet: 3
+  combo:
+    - name: board
+    - operation: subtract
+      name: switches
+
+  combo_thumb:
+    - name: board
+    - operation: subtract
+      name: switches
+    - operation: subtract
+      name: thumb
+
+  combo_raw_thumb: 
+    - name: board
+    - operation: subtract
+      name: raw
+    - operation: subtract
+      name: thumb
+pcbs:
+  left:
+    template: kicad8
+    outlines:
+      main:
+        outline: board
+    footprints:
+      choc_hotswap:
+        what: choc
+        where: true
+        params:
+          keycaps: true
+          reverse: false
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      diode:
+        what: diode
+        where: true
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [0, -5]
+      controller:
+        what: xiao
+        where: matrix_index_top
+        adjust:
+          shift: [3, 5.5]
+          rotate: -28.5
+        

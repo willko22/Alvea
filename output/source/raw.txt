@@ -1,0 +1,26 @@
+units:
+  u: 21.5
+  hex_spread: "u * 0.866"   # ~18.62 — center-to-center X distance
+  hex_stagger: u             # one full key per step
+
+points:
+  zones:
+    matrix:
+      key:
+        spread: hex_spread
+        padding: u
+      columns:
+        A:
+          key.stagger: 0
+        B:
+          key.stagger: hex_stagger
+        C:
+          key.stagger: hex_stagger
+        D:
+          key.stagger: "-hex_stagger"
+        E:
+          key.stagger: "-hex_stagger"
+      rows:
+        bottom:
+        home:
+        top:

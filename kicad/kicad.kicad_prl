@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 43,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -10,11 +10,9 @@
       "",
       "/PWR",
       "GND",
-      "Net-(U1-A)",
       "/VBUS",
       "/RESET",
       "/PWR_BTN",
-      "Net-(D1-Pad1)",
       "/ROW1",
       "Net-(D4-Pad1)",
       "/ROW2",
@@ -77,8 +75,6 @@
       "unconnected-(U2-P0.03-Pad3)",
       "/COL4",
       "/COL5",
-      "unconnected-(U1-NC-Pad1)",
-      "Net-(U1-Y)",
       "unconnected-(U7-~{2Q}-Pad8)",
       "unconnected-(U7-2Q-Pad9)",
       "unconnected-(U7-1Q-Pad5)",
@@ -90,6 +86,9 @@
       "Net-(U6-VCAP)",
       "Net-(U6-IREF)",
       "/VDD_nRF",
+      "Net-(U2-XL1)",
+      "Net-(U2-XL2)",
+      "Net-(U2-DCH)",
       "/SWBCLK",
       "/SWDIO",
       "unconnected-(U2-P0.07-Pad22)",
@@ -102,13 +101,17 @@
       "Net-(F1-Pad1)",
       "/LED20",
       "unconnected-(U2-P1.06-Pad42)",
+      "/COL6",
       "/COL7",
       "unconnected-(U2-AI3-Pad15)",
       "unconnected-(U2-P0.08-Pad16)",
       "unconnected-(U2-P0.24-Pad35)",
       "unconnected-(U2-P0.13-Pad33)",
       "unconnected-(U2-AI6-Pad10)",
-      "Net-(D2-Pad1)"
+      "unconnected-(U6-OUT15-Pad16)",
+      "unconnected-(U6-OUT9-Pad10)",
+      "unconnected-(U6-OUT8-Pad9)",
+      "unconnected-(U6-OUT14-Pad15)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -223,32 +226,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "kicad.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -9,
-          "pos_y": -9,
-          "size_x": 3218,
-          "size_y": 1958
-        }
-      },
-      {
-        "name": "kicad.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": -18,
-          "pos_y": -18,
-          "size_x": 3218,
-          "size_y": 1958
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "selection_filter": {

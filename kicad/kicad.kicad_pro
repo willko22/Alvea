@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.75,
+          "height": 0.75,
+          "width": 0.75
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,12 +52,41 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|101940000|71030000|32948355-9583-4ffb-8ed9-283113ee7018|3bae8b72-5c65-49e4-86e2-11a9d7f84565",
+          ""
+        ],
+        [
+          "clearance|114415000|74660000|c4265ead-c993-4495-8b97-03e3af767dcf|d8585af5-7746-4e90-a064-24e9001d60d1",
+          ""
+        ],
+        [
+          "clearance|119943000|46920000|e4f2937d-fd4d-46cb-b169-cbddc1ad12ed|84a538ea-9b15-4018-a06e-4e4964be6845",
+          ""
+        ],
+        [
+          "clearance|120943000|45620000|84a538ea-9b15-4018-a06e-4e4964be6845|31976b58-9030-47e0-95e9-ba604f554d52",
+          ""
+        ],
+        [
+          "clearance|124743000|46920000|bf181a4b-96fc-4c7d-aad3-c3e6a49b8251|6d04981a-809b-47ea-b4e7-db8bac89a9e7",
+          ""
+        ],
+        [
+          "clearance|125743000|46920000|f1ba17ac-f980-44dd-8d3e-e76267fb83e4|bf181a4b-96fc-4c7d-aad3-c3e6a49b8251",
+          ""
+        ],
+        [
+          "extra_footprint|123200000|80000000|97eff827-7597-4b24-8a54-e90f709fb9eb|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "warning",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -71,7 +100,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
-        "footprint_symbol_mismatch": "warning",
+        "footprint_symbol_mismatch": "ignore",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
@@ -82,7 +111,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -95,7 +124,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -218,7 +247,78 @@
       "mpn": ""
     },
     "layer_pairs": [],
-    "layer_presets": [],
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          2,
+          7,
+          29,
+          39,
+          41,
+          43,
+          45
+        ],
+        "name": "Back",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "drc_exclusions",
+          "conflict_shadows",
+          "shapes"
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          0,
+          5,
+          31,
+          39,
+          41,
+          43,
+          45
+        ],
+        "name": "Front",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "drc_exclusions",
+          "conflict_shadows",
+          "shapes"
+        ]
+      }
+    ],
     "viewports": []
   },
   "boards": [],

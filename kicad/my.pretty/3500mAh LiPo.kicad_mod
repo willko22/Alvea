@@ -3,10 +3,10 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "Battery?"
 		(at 0 -0.5 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "User.1")
 		(uuid "2642584d-f183-464e-8f93-2c9983f4f25f")
 		(effects
 			(font
@@ -18,7 +18,7 @@
 	(property "Value" "3500mAh LiPo"
 		(at 0 1 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.1")
 		(uuid "38881166-3d82-4746-9eea-831dc7b49f2f")
 		(effects
 			(font
@@ -62,7 +62,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "F.SilkS")
+		(layer "User.1")
 		(uuid "053df71a-ea27-459f-a3f7-e9c291c074c7")
 	)
 	(fp_text user "${REFERENCE}"

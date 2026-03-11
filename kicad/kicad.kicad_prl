@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 43,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -111,7 +111,10 @@
       "unconnected-(U6-OUT15-Pad16)",
       "unconnected-(U6-OUT9-Pad10)",
       "unconnected-(U6-OUT8-Pad9)",
-      "unconnected-(U6-OUT14-Pad15)"
+      "unconnected-(U6-OUT14-Pad15)",
+      "Net-(U1-IN+)",
+      "Net-(U1-IN-)",
+      "Net-(U1-OUT)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -157,7 +160,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00002a80_8a0000a5",
+    "visible_layers": "00000000_00000000_00002a00_8a0000a5",
     "zone_display_mode": 0
   },
   "git": {
@@ -226,7 +229,32 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "kicad.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -9,
+          "pos_y": -9,
+          "size_x": 3218,
+          "size_y": 1958
+        }
+      },
+      {
+        "name": "kicad.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -9,
+          "pos_y": -9,
+          "size_x": 3218,
+          "size_y": 1958
+        }
+      }
+    ]
   },
   "schematic": {
     "selection_filter": {

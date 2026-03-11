@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 43,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -65,11 +65,11 @@
       "/BAT+",
       "/PMOS_gate",
       "Net-(Q2-G2)",
-      "Net-(U4-CS)",
+      "Net-(U3-IN+)",
       "Net-(Q2-G1)",
       "Net-(USBC1-CC1)",
       "Net-(USBC1-CC2)",
-      "Net-(U3-PROG)",
+      "Net-(U6-XL1)",
       "/COL1",
       "/COL2",
       "unconnected-(U2-P0.03-Pad3)",
@@ -78,9 +78,9 @@
       "unconnected-(U7-~{2Q}-Pad8)",
       "unconnected-(U7-2Q-Pad9)",
       "unconnected-(U7-1Q-Pad5)",
-      "unconnected-(U3-NC-Pad8)",
-      "unconnected-(U3-NC-Pad1)",
-      "unconnected-(U4-TD-Pad4)",
+      "Net-(U6-XL2)",
+      "Net-(U7-VCAP)",
+      "Net-(D2-Pad1)",
       "unconnected-(USBC1-SBU1-PadA8)",
       "unconnected-(USBC1-SBU2-PadB8)",
       "Net-(U6-VCAP)",
@@ -229,32 +229,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "kicad.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -9,
-          "pos_y": -9,
-          "size_x": 3218,
-          "size_y": 1958
-        }
-      },
-      {
-        "name": "kicad.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -9,
-          "pos_y": -9,
-          "size_x": 3218,
-          "size_y": 1958
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "selection_filter": {

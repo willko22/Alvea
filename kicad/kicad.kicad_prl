@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 4,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -33,8 +33,6 @@
       "Net-(D18-Pad1)",
       "Net-(D19-Pad1)",
       "Net-(D20-Pad1)",
-      "Net-(D21-Pad1)",
-      "Net-(D22-Pad1)",
       "/LED1",
       "/LED2",
       "/LED3",
@@ -65,56 +63,55 @@
       "/BAT+",
       "/PMOS_gate",
       "Net-(Q2-G2)",
-      "Net-(U3-IN+)",
       "Net-(Q2-G1)",
       "Net-(USBC1-CC1)",
       "Net-(USBC1-CC2)",
-      "Net-(U6-XL1)",
       "/COL1",
       "/COL2",
-      "unconnected-(U2-P0.03-Pad3)",
       "/COL4",
       "/COL5",
-      "unconnected-(U7-~{2Q}-Pad8)",
-      "unconnected-(U7-2Q-Pad9)",
-      "unconnected-(U7-1Q-Pad5)",
-      "Net-(U6-XL2)",
       "Net-(U7-VCAP)",
       "Net-(D2-Pad1)",
       "unconnected-(USBC1-SBU1-PadA8)",
       "unconnected-(USBC1-SBU2-PadB8)",
-      "Net-(U6-VCAP)",
-      "Net-(U6-IREF)",
       "/VDD_nRF",
-      "Net-(U2-XL1)",
-      "Net-(U2-XL2)",
-      "Net-(U2-DCH)",
       "/SWBCLK",
       "/SWDIO",
-      "unconnected-(U2-P0.07-Pad22)",
-      "unconnected-(U2-P1.13-Pad6)",
       "/COL3",
-      "unconnected-(U2-P12-Pad20)",
-      "unconnected-(U2-P1.04-Pad40)",
-      "unconnected-(U2-AI2-Pad18)",
-      "unconnected-(U2-P1.10-Pad2)",
       "Net-(F1-Pad1)",
       "/LED20",
-      "unconnected-(U2-P1.06-Pad42)",
       "/COL6",
       "/COL7",
+      "Net-(D3-Pad1)",
+      "Net-(U2-XL1)",
+      "Net-(U7-IREF)",
+      "Net-(U2-XL2)",
+      "Net-(U2-DCH)",
+      "unconnected-(U7-OUT15-Pad16)",
+      "unconnected-(U7-OUT9-Pad10)",
+      "unconnected-(U7-OUT14-Pad15)",
+      "unconnected-(U7-OUT8-Pad9)",
+      "Net-(U5-CS)",
+      "Net-(U4-PROG)",
+      "unconnected-(U2-P0.07-Pad22)",
+      "unconnected-(U2-P1.13-Pad6)",
+      "unconnected-(U2-P12-Pad20)",
+      "unconnected-(U2-P1.04-Pad40)",
       "unconnected-(U2-AI3-Pad15)",
+      "unconnected-(U2-AI2-Pad18)",
+      "unconnected-(U2-P0.03-Pad3)",
       "unconnected-(U2-P0.08-Pad16)",
       "unconnected-(U2-P0.24-Pad35)",
       "unconnected-(U2-P0.13-Pad33)",
+      "unconnected-(U2-P1.10-Pad2)",
       "unconnected-(U2-AI6-Pad10)",
-      "unconnected-(U6-OUT15-Pad16)",
-      "unconnected-(U6-OUT9-Pad10)",
-      "unconnected-(U6-OUT8-Pad9)",
-      "unconnected-(U6-OUT14-Pad15)",
-      "Net-(U1-IN+)",
-      "Net-(U1-IN-)",
-      "Net-(U1-OUT)"
+      "unconnected-(U2-P1.06-Pad42)",
+      "unconnected-(U3-2Q-Pad9)",
+      "unconnected-(U3-~{2Q}-Pad8)",
+      "unconnected-(U3-1Q-Pad5)",
+      "unconnected-(U4-NC-Pad8)",
+      "unconnected-(U4-NC-Pad1)",
+      "unconnected-(U5-TD-Pad4)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -160,7 +157,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00002a00_8a0000a5",
+    "visible_layers": "00000000_00000000_00000000_02000094",
     "zone_display_mode": 0
   },
   "git": {
@@ -229,7 +226,32 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "kicad.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -9,
+          "pos_y": -9,
+          "size_x": 3218,
+          "size_y": 1958
+        }
+      },
+      {
+        "name": "kicad.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -9,
+          "pos_y": -9,
+          "size_x": 3218,
+          "size_y": 1958
+        }
+      }
+    ]
   },
   "schematic": {
     "selection_filter": {

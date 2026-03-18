@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd5f5_d75555ad",
+    "visible_layers": "ffffffff_ffffffff_ffffd575_5755d565",
     "zone_display_mode": 0
   },
   "git": {
@@ -118,20 +118,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "right.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -9,
-          "pos_y": -9,
-          "size_x": 3218,
-          "size_y": 1958
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "selection_filter": {

@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 6,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd575_575555a5",
+    "visible_layers": "ffffffff_ffffffff_ffffd575_57555585",
     "zone_display_mode": 0
   },
   "git": {
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "right.kicad_prl",
+    "filename": "left.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

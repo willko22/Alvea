@@ -6452,7 +6452,7 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 135.128 92.964 0)
+		(at 129.032 91.694 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -6462,7 +6462,7 @@
 	)
 	(text "Debug Connector"
 		(exclude_from_sim no)
-		(at 136.906 107.696 0)
+		(at 141.986 110.236 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6856,6 +6856,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70e5d407-e9bf-4d6f-9003-ddcfc1939124")
+	)
+	(junction
+		(at 24.13 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a2fca81-c1ca-4ea0-a625-e09e1e0ff73b")
 	)
 	(junction
 		(at 241.3 71.12)
@@ -8011,6 +8017,16 @@
 		)
 		(uuid "18daad9d-58d2-4fd9-850f-9a8df1b4898d")
 	)
+	(wire
+		(pts
+			(xy 24.13 151.13) (xy 24.13 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19614de0-fe51-4fa8-bb0d-7b4932f6a970")
+	)
 	(bus
 		(pts
 			(xy 284.48 146.05) (xy 284.48 143.51)
@@ -8613,7 +8629,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 110.49) (xy 132.08 110.49)
+			(xy 134.62 113.03) (xy 137.16 113.03)
 		)
 		(stroke
 			(width 0)
@@ -9951,6 +9967,16 @@
 		)
 		(uuid "9cdd90e9-b321-4298-8c8b-3df298687af6")
 	)
+	(wire
+		(pts
+			(xy 24.13 153.67) (xy 29.21 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce95a39-508c-4f2b-acc8-34ad02f08297")
+	)
 	(bus
 		(pts
 			(xy 289.56 116.84) (xy 289.56 119.38)
@@ -10493,6 +10519,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 153.67) (xy 24.13 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8c2daf-3071-45fb-b8e7-eeb8af2a4138")
+	)
+	(wire
+		(pts
 			(xy 252.73 165.1) (xy 255.27 165.1)
 		)
 		(stroke
@@ -10713,7 +10749,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 110.49) (xy 132.08 113.03)
+			(xy 137.16 113.03) (xy 137.16 115.57)
 		)
 		(stroke
 			(width 0)
@@ -11501,16 +11537,6 @@
 		)
 		(uuid "fffcfa76-9c1a-49e1-86c0-7be62db2fb64")
 	)
-	(label "SWDIO"
-		(at 105.41 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02170400-07a4-4140-bd7b-e0ff26b59a85")
-	)
 	(label "ROW1"
 		(at 21.59 217.17 180)
 		(effects
@@ -11520,6 +11546,16 @@
 			(justify right bottom)
 		)
 		(uuid "047018f6-3b31-4fa0-aecd-b1ffb0517e2d")
+	)
+	(label "SWBCLK"
+		(at 45.72 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04ed28a0-3bb7-4110-af45-6669f74e36ea")
 	)
 	(label "BAT+"
 		(at 182.88 52.07 180)
@@ -11541,6 +11577,16 @@
 		)
 		(uuid "0a466e75-5341-46e3-92e6-91a502ba2a37")
 	)
+	(label "PWR_BTN_PRESS"
+		(at 29.21 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c220b24-e819-4387-9ca3-7ec771f5621e")
+	)
 	(label "BAT+"
 		(at 245.11 226.06 180)
 		(effects
@@ -11560,16 +11606,6 @@
 			(justify right bottom)
 		)
 		(uuid "12776781-ac10-49fa-9de1-5aa5060a1f7d")
-	)
-	(label "LED_SDA"
-		(at 45.72 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1393c4f4-3b20-48b2-9e96-da6388ccdc02")
 	)
 	(label "D+"
 		(at 143.51 43.18 0)
@@ -11600,16 +11636,6 @@
 			(justify left bottom)
 		)
 		(uuid "1911d77b-1713-4d5d-ac33-45b39316999a")
-	)
-	(label "LED_EN"
-		(at 45.72 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1c1658ef-2c0a-4a51-9d97-efb641ea3690")
 	)
 	(label "ADC"
 		(at 30.48 115.57 0)
@@ -11671,6 +11697,16 @@
 		)
 		(uuid "2de0a4b0-8544-4aee-8b8b-98493b15c07f")
 	)
+	(label "LED_EN"
+		(at 66.04 146.05 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2fbcdf99-70d7-4be4-8888-d72591f88485")
+	)
 	(label "LED4"
 		(at 323.85 139.7 0)
 		(effects
@@ -11680,16 +11716,6 @@
 			(justify left bottom)
 		)
 		(uuid "3056e53d-8617-4e29-bf3e-41f1b42da6e9")
-	)
-	(label "COL6"
-		(at 71.12 146.05 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "305ea3b9-90fc-441b-aaf8-4bcb3e492fd7")
 	)
 	(label "COL2"
 		(at 105.41 114.3 0)
@@ -11750,6 +11776,26 @@
 			(justify left bottom)
 		)
 		(uuid "3b126a05-d9d5-4a8a-95fe-e88980937e2a")
+	)
+	(label "LED_SCL"
+		(at 71.12 146.05 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3beb6e8f-72e0-4f2c-8c9e-008c1bc20d1d")
+	)
+	(label "PWR_BTN"
+		(at 24.13 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "416dca14-13bc-49ca-987d-3f4fe6be60be")
 	)
 	(label "PWR"
 		(at 83.82 35.56 180)
@@ -11931,16 +11977,6 @@
 		)
 		(uuid "6587e6aa-d138-4536-9d54-dad61d7eec70")
 	)
-	(label "SWBCLK"
-		(at 105.41 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "67a7a801-2175-4565-b4de-59b579d42a48")
-	)
 	(label "LED12"
 		(at 281.94 130.81 180)
 		(effects
@@ -11982,7 +12018,7 @@
 		(uuid "70d57156-5c16-4bbd-b2ad-a98146a5f1a7")
 	)
 	(label "SWBCLK"
-		(at 132.08 115.57 180)
+		(at 137.16 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12002,7 +12038,7 @@
 		(uuid "717470bf-ae51-4755-bd1e-ab0476dfac20")
 	)
 	(label "SWDIO"
-		(at 132.08 118.11 180)
+		(at 137.16 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12040,6 +12076,16 @@
 			(justify left bottom)
 		)
 		(uuid "7736a7c4-c98f-4325-8c9a-226e30034763")
+	)
+	(label "PWR_BTN_PRESS"
+		(at 105.41 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "774eb381-54c0-4eb2-b0f9-ea4e2469ab3f")
 	)
 	(label "BAT+"
 		(at 205.74 45.72 180)
@@ -12131,16 +12177,6 @@
 		)
 		(uuid "91e44e01-ffae-4706-85a0-524846a24155")
 	)
-	(label "LED_SCL"
-		(at 45.72 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9564c978-edd3-47be-baa3-f57dcdd1c33f")
-	)
 	(label "LED5"
 		(at 298.45 132.08 180)
 		(effects
@@ -12170,6 +12206,16 @@
 			(justify right bottom)
 		)
 		(uuid "9cff3056-d589-4d02-9767-741f167d22ae")
+	)
+	(label "LED_SDA"
+		(at 68.58 146.05 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d0099f0-4158-445f-9986-ce864de2b152")
 	)
 	(label "STDBY"
 		(at 105.41 101.6 0)
@@ -12351,6 +12397,16 @@
 		)
 		(uuid "c44dc14b-51a6-4683-9675-641d5280feef")
 	)
+	(label "ROW4"
+		(at 45.72 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c51f2d7c-4761-438e-8260-669aea5a15f9")
+	)
 	(label "LED3"
 		(at 298.45 127 180)
 		(effects
@@ -12441,16 +12497,6 @@
 		)
 		(uuid "d6671904-a999-41e4-b95f-766724f49048")
 	)
-	(label "COL7"
-		(at 45.72 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d9ff54c5-f544-4e56-9ff5-4cfb73684c22")
-	)
 	(label "LED19"
 		(at 298.45 104.14 180)
 		(effects
@@ -12540,6 +12586,16 @@
 			(justify left bottom)
 		)
 		(uuid "e95bb35d-b668-41c1-9101-5eedda400b2f")
+	)
+	(label "SWDIO"
+		(at 45.72 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebcd2265-6b36-4c83-aa7a-a76d6253b46c")
 	)
 	(label "COL5"
 		(at 182.88 208.28 180)
@@ -15385,7 +15441,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:HC-PM254-8.5H-1X3PW")
-		(at 137.16 115.57 0)
+		(at 142.24 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15393,7 +15449,7 @@
 		(dnp no)
 		(uuid "44045fb3-2aeb-4a97-ae4f-1ee40c441859")
 		(property "Reference" "H1"
-			(at 140.97 114.2999 0)
+			(at 146.05 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15402,7 +15458,7 @@
 			)
 		)
 		(property "Value" "HC-PM254-8.5H-1X3PW"
-			(at 140.97 116.8399 0)
+			(at 146.05 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15412,7 +15468,7 @@
 			)
 		)
 		(property "Footprint" ":HDR-TH_3P-P2.54_HC-PM254-8.5H-1X3PW"
-			(at 137.16 125.73 0)
+			(at 142.24 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15421,7 +15477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 115.57 0)
+			(at 142.24 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15430,7 +15486,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 115.57 0)
+			(at 142.24 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15439,7 +15495,7 @@
 			)
 		)
 		(property "LCSC Part" "C22373927"
-			(at 146.558 116.332 0)
+			(at 151.638 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19833,6 +19889,81 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:RC0402FR-071ML")
+		(at 24.13 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a06d753-6b89-4b42-b729-70dfe1cfb94c")
+		(property "Reference" "R17"
+			(at 17.78 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0402FR-071ML"
+			(at 20.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 31.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1MR-1004-1_C138033.html"
+			(at 34.29 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1M"
+			(at 24.13 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C138033"
+			(at 20.574 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e4ada7b-695f-419c-b6ed-ae7417149baf")
+		)
+		(pin "2"
+			(uuid "e2f380d7-748a-4c70-bc6f-d23494e5c5d5")
+		)
+		(instances
+			(project "right"
+				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 36.83 69.85 270)
 		(unit 1)
@@ -20515,6 +20646,81 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:WR04W2494FTL")
+		(at 24.13 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afcb4460-caf7-414c-8233-41c045e7aaac")
+		(property "Reference" "R18"
+			(at 17.78 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WR04W2494FTL"
+			(at 20.32 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 31.75 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Walsin-Tech-Corp-WR04W2494FTL_C368359.html"
+			(at 34.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2M49"
+			(at 24.13 161.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part" "C368359"
+			(at 20.574 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "654308d1-7579-4964-a90a-c0a9b36359a8")
+		)
+		(pin "2"
+			(uuid "ebcd575a-1ab5-4cdc-a641-fb4114f372c1")
+		)
+		(instances
+			(project "right"
+				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 205.74 30.48 90)
 		(unit 1)
@@ -20958,6 +21164,73 @@
 			(project "kicad"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 24.13 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5c54678-3ada-4a87-9c3c-61d8e0f4ca6b")
+		(property "Reference" "#PWR030"
+			(at 24.13 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 170.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6108588c-c7fe-451a-bdcf-d70734b4439a")
+		)
+		(instances
+			(project "right"
+				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -21734,7 +22007,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 129.54 110.49 270)
+		(at 134.62 113.03 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21743,7 +22016,7 @@
 		(dnp no)
 		(uuid "c90e9e7b-81b0-49bd-9eda-b8e84ccee9f3")
 		(property "Reference" "#PWR012"
-			(at 123.19 110.49 0)
+			(at 128.27 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21752,7 +22025,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 110.49 0)
+			(at 130.81 113.03 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21761,7 +22034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 110.49 0)
+			(at 134.62 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21770,7 +22043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 110.49 0)
+			(at 134.62 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21779,7 +22052,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 110.49 0)
+			(at 125.73 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)

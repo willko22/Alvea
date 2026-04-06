@@ -6966,6 +6966,12 @@
 		(uuid "9f8df2db-cd33-4411-bcb7-ee83b14186e3")
 	)
 	(junction
+		(at 25.4 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1247a86-4a53-4a74-9eb6-2420ffd58bed")
+	)
+	(junction
 		(at 260.35 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7790,6 +7796,16 @@
 			(type default)
 		)
 		(uuid "0b1422d5-6dad-45f2-8322-089d46228a4e")
+	)
+	(wire
+		(pts
+			(xy 25.4 152.4) (xy 30.48 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3332fc-fdf6-4934-b1d2-86c956790cc5")
 	)
 	(wire
 		(pts
@@ -9223,6 +9239,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 152.4) (xy 25.4 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7135eafc-73e8-4df6-9895-b889422ef214")
+	)
+	(wire
+		(pts
 			(xy 220.98 113.03) (xy 281.94 113.03)
 		)
 		(stroke
@@ -9590,6 +9616,16 @@
 			(type default)
 		)
 		(uuid "86e4a615-b127-455f-9076-846e9f8caae4")
+	)
+	(wire
+		(pts
+			(xy 25.4 149.86) (xy 25.4 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a2b43c-5bf9-4420-9c37-19f0f2761000")
 	)
 	(wire
 		(pts
@@ -11502,7 +11538,7 @@
 		(uuid "fffcfa76-9c1a-49e1-86c0-7be62db2fb64")
 	)
 	(label "SWDIO"
-		(at 105.41 111.76 0)
+		(at 105.41 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11510,6 +11546,16 @@
 			(justify left bottom)
 		)
 		(uuid "02170400-07a4-4140-bd7b-e0ff26b59a85")
+	)
+	(label "ROW4"
+		(at 105.41 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02ede2c5-5714-49e3-b214-b00a734c62fc")
 	)
 	(label "ROW1"
 		(at 21.59 217.17 180)
@@ -11531,15 +11577,15 @@
 		)
 		(uuid "09dd4f7e-4328-4199-9ad2-fe1682e7d8f9")
 	)
-	(label "CHRG"
-		(at 105.41 96.52 0)
+	(label "LED7"
+		(at 323.85 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "0a466e75-5341-46e3-92e6-91a502ba2a37")
+		(uuid "0e3fdd57-8460-4044-8c17-695ba3b438f3")
 	)
 	(label "BAT+"
 		(at 245.11 226.06 180)
@@ -11561,16 +11607,6 @@
 		)
 		(uuid "12776781-ac10-49fa-9de1-5aa5060a1f7d")
 	)
-	(label "LED_SDA"
-		(at 45.72 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1393c4f4-3b20-48b2-9e96-da6388ccdc02")
-	)
 	(label "D+"
 		(at 143.51 43.18 0)
 		(effects
@@ -11581,8 +11617,18 @@
 		)
 		(uuid "1474ea86-a866-4c9a-837e-5cad72c1f427")
 	)
+	(label "LED12"
+		(at 298.218 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1759f5ae-18e5-48af-ae0a-9d62c76145c8")
+	)
 	(label "COL4"
-		(at 105.41 124.46 0)
+		(at 105.41 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11591,25 +11637,15 @@
 		)
 		(uuid "183973c8-cbf0-42b3-9504-c0a7e848b477")
 	)
-	(label "LED12"
-		(at 324.082 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1911d77b-1713-4d5d-ac33-45b39316999a")
-	)
-	(label "LED_EN"
-		(at 45.72 123.19 180)
+	(label "STDBY"
+		(at 45.72 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "1c1658ef-2c0a-4a51-9d97-efb641ea3690")
+		(uuid "1a331b4d-0d1e-46aa-aacc-1be1f52dcebd")
 	)
 	(label "ADC"
 		(at 30.48 115.57 0)
@@ -11632,7 +11668,7 @@
 		(uuid "1f787556-f508-469f-8e0e-53c712f63986")
 	)
 	(label "LED17"
-		(at 298.45 139.7 180)
+		(at 298.45 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11640,6 +11676,16 @@
 			(justify right bottom)
 		)
 		(uuid "205d7203-65f4-4e89-b06a-4168b4055703")
+	)
+	(label "LED20"
+		(at 298.45 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "217a0028-6d4a-4ef0-8895-42be19c488a4")
 	)
 	(label "PWR"
 		(at 25.4 102.87 0)
@@ -11650,6 +11696,16 @@
 			(justify left bottom)
 		)
 		(uuid "270ca3f5-ebea-4cb6-931b-69e228e20d91")
+	)
+	(label "LED10"
+		(at 323.85 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28d25744-faea-4191-8c97-ae251ab9e299")
 	)
 	(label "VBUS"
 		(at 160.02 50.8 0)
@@ -11662,7 +11718,7 @@
 		(uuid "29b8ed04-4770-4fce-ab69-54241635d56c")
 	)
 	(label "LED13"
-		(at 298.45 137.16 180)
+		(at 298.45 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11671,28 +11727,8 @@
 		)
 		(uuid "2de0a4b0-8544-4aee-8b8b-98493b15c07f")
 	)
-	(label "LED4"
-		(at 323.85 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3056e53d-8617-4e29-bf3e-41f1b42da6e9")
-	)
-	(label "COL6"
-		(at 71.12 146.05 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "305ea3b9-90fc-441b-aaf8-4bcb3e492fd7")
-	)
 	(label "COL2"
-		(at 105.41 114.3 0)
+		(at 105.41 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11731,8 +11767,28 @@
 		)
 		(uuid "368e2ff2-9ae9-42e6-a944-958620cbeb90")
 	)
+	(label "LED_SDA"
+		(at 68.58 146.05 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37773a0e-14f0-48af-aff7-3561f711bf5d")
+	)
+	(label "ROW1"
+		(at 45.72 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a10396a-9d95-4d65-9e8c-d9f726e8ca14")
+	)
 	(label "LED9"
-		(at 298.45 134.62 180)
+		(at 298.45 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11740,16 +11796,6 @@
 			(justify right bottom)
 		)
 		(uuid "3a211c01-71b4-401f-b702-c2ccab01cb11")
-	)
-	(label "LED20"
-		(at 323.85 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b126a05-d9d5-4a8a-95fe-e88980937e2a")
 	)
 	(label "PWR"
 		(at 83.82 35.56 180)
@@ -11781,6 +11827,16 @@
 		)
 		(uuid "467d8dd3-6eee-486b-ae6a-55956a0c487f")
 	)
+	(label "PWR_BTN_PRESS"
+		(at 30.48 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46b326b4-e208-408e-8934-5a4c6cf06f40")
+	)
 	(label "LED10"
 		(at 281.94 125.73 180)
 		(effects
@@ -11811,16 +11867,6 @@
 		)
 		(uuid "4af80aee-5c5b-4920-85f8-d1ede826fadb")
 	)
-	(label "LED18"
-		(at 298.45 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4d8e91f8-8e4e-4f41-9bd9-2e3bec2a32ed")
-	)
 	(label "LED6"
 		(at 281.94 115.57 180)
 		(effects
@@ -11840,6 +11886,16 @@
 			(justify right bottom)
 		)
 		(uuid "52a68b87-db54-4190-90dd-65d996d0c658")
+	)
+	(label "COL5"
+		(at 105.41 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "545888df-1060-438a-8646-a19c643c81b5")
 	)
 	(label "LED16"
 		(at 281.94 140.97 180)
@@ -11881,6 +11937,16 @@
 		)
 		(uuid "5983373c-f316-46a3-951e-0afb2a1d38cf")
 	)
+	(label "LED4"
+		(at 298.45 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b90316e-bcc6-408c-8695-dce22bf3cc42")
+	)
 	(label "LED7"
 		(at 281.94 118.11 180)
 		(effects
@@ -11890,6 +11956,26 @@
 			(justify right bottom)
 		)
 		(uuid "5bf801e8-214c-4347-9092-c07862f7f4b3")
+	)
+	(label "CHRG"
+		(at 45.72 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5cc905cd-6f5b-4b0d-a9f1-106595cdb25f")
+	)
+	(label "LED_SCL"
+		(at 71.12 146.05 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5eda5f2e-6366-4878-b836-dd238f00233b")
 	)
 	(label "LED_SCL"
 		(at 377.19 111.76 270)
@@ -11932,7 +12018,7 @@
 		(uuid "6587e6aa-d138-4536-9d54-dad61d7eec70")
 	)
 	(label "SWBCLK"
-		(at 105.41 106.68 0)
+		(at 105.41 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11951,16 +12037,6 @@
 		)
 		(uuid "6db64ffe-acbc-45cc-ba61-bddd020974ae")
 	)
-	(label "LED16"
-		(at 323.85 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f5aeb5f-c7f7-4c2c-bfe3-cf71d0c4955b")
-	)
 	(label "D+"
 		(at 143.51 38.1 0)
 		(effects
@@ -11972,7 +12048,7 @@
 		(uuid "700a838e-11f8-450b-a10d-92e109b54f15")
 	)
 	(label "COL3"
-		(at 105.41 119.38 0)
+		(at 105.41 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11992,7 +12068,7 @@
 		(uuid "70e06ba9-ed6b-4e7b-888e-d24b7bda12a2")
 	)
 	(label "COL1"
-		(at 105.41 109.22 0)
+		(at 105.41 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12021,16 +12097,6 @@
 		)
 		(uuid "7674625a-c1df-4f2b-8154-bf852a2f3dba")
 	)
-	(label "LED11"
-		(at 298.45 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "76880f56-8b77-4493-beda-84e1d5a426c8")
-	)
 	(label "PWR_BTN"
 		(at 60.96 69.85 0)
 		(effects
@@ -12050,6 +12116,16 @@
 			(justify right bottom)
 		)
 		(uuid "7b3362ce-8e47-4fbb-964b-7a2ddf57cc79")
+	)
+	(label "LED15"
+		(at 323.85 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c34b194-9bf9-42bc-8e96-f9bd620fecc1")
 	)
 	(label "LED4"
 		(at 281.94 110.49 180)
@@ -12101,16 +12177,6 @@
 		)
 		(uuid "8cd9cb90-b76f-49c9-830d-aea06af5f14d")
 	)
-	(label "LED1"
-		(at 323.85 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8cf221f0-7cc5-48e9-96ae-1c2efbd80384")
-	)
 	(label "VDD_nRF"
 		(at 76.2 146.05 270)
 		(effects
@@ -12131,18 +12197,18 @@
 		)
 		(uuid "91e44e01-ffae-4706-85a0-524846a24155")
 	)
-	(label "LED_SCL"
-		(at 45.72 128.27 180)
+	(label "LED8"
+		(at 298.45 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "9564c978-edd3-47be-baa3-f57dcdd1c33f")
+		(uuid "978b58fe-5a48-4c15-86ff-dee670603289")
 	)
 	(label "LED5"
-		(at 298.45 132.08 180)
+		(at 298.45 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12150,16 +12216,6 @@
 			(justify right bottom)
 		)
 		(uuid "98462a26-b1e3-4734-bf82-60fcd818b5dd")
-	)
-	(label "ROW3"
-		(at 58.42 146.05 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9a375616-0ed4-4c8b-afb4-1d7ba3daebf9")
 	)
 	(label "LED14"
 		(at 281.94 135.89 180)
@@ -12170,16 +12226,6 @@
 			(justify right bottom)
 		)
 		(uuid "9cff3056-d589-4d02-9767-741f167d22ae")
-	)
-	(label "STDBY"
-		(at 105.41 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e254bda-030a-4093-af51-9758a7bfb059")
 	)
 	(label "PWR"
 		(at 313.69 71.12 0)
@@ -12192,14 +12238,14 @@
 		(uuid "9eb3c900-6445-448d-9317-1f0398a68132")
 	)
 	(label "LED6"
-		(at 298.45 121.92 180)
+		(at 323.85 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "a14ea5af-7fe2-40cf-b5f2-9694ecf84698")
+		(uuid "9eeb8f17-55d4-4f2b-9b3b-767433a76034")
 	)
 	(label "PWR"
 		(at 86.36 146.05 270)
@@ -12211,15 +12257,15 @@
 		)
 		(uuid "a218836c-4499-4df2-b7b7-12ff6f2a2baf")
 	)
-	(label "COL5"
-		(at 45.72 120.65 180)
+	(label "LED1"
+		(at 298.45 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "a28d975c-0c77-40e7-bd44-61b3887e4fc4")
+		(uuid "a21d1cfc-0445-4ff7-b2ce-99da1bbd04c8")
 	)
 	(label "LED_EN"
 		(at 383.54 109.22 0)
@@ -12251,6 +12297,16 @@
 		)
 		(uuid "ab38c137-3324-4c0f-ab58-8218f8bb47f4")
 	)
+	(label "LED_EN"
+		(at 66.04 146.05 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac903a1a-cc2c-4896-814f-a96b4d87e23e")
+	)
 	(label "LED_SDA"
 		(at 363.22 114.3 270)
 		(effects
@@ -12260,16 +12316,6 @@
 			(justify right bottom)
 		)
 		(uuid "b36ceeaa-53bd-4288-8a26-d63795bc35e9")
-	)
-	(label "LED10"
-		(at 298.45 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b4e43a0f-0d4b-40f2-8140-0c2ba14affbf")
 	)
 	(label "LED19"
 		(at 281.94 148.59 180)
@@ -12301,6 +12347,16 @@
 		)
 		(uuid "ba1eecd9-dc43-4f21-bc9b-3d125fc11192")
 	)
+	(label "ROW3"
+		(at 105.41 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb09a400-bf76-48ac-9b03-ae271e09d29e")
+	)
 	(label "RESET"
 		(at 105.41 139.7 0)
 		(effects
@@ -12311,6 +12367,16 @@
 		)
 		(uuid "bd50651b-dc5f-4196-af93-3b712ecfd7db")
 	)
+	(label "LED14"
+		(at 323.85 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bebbec0f-d3ab-4fe8-b52a-45b9e48fb69d")
+	)
 	(label "LED3"
 		(at 281.94 107.95 180)
 		(effects
@@ -12320,26 +12386,6 @@
 			(justify right bottom)
 		)
 		(uuid "bf2ac39c-9111-4b85-8648-6e3d55962925")
-	)
-	(label "LED7"
-		(at 298.45 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c1dbf650-b366-4bf7-b4f2-dfff53efc5c6")
-	)
-	(label "ROW2"
-		(at 45.72 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c3920e46-1857-41a5-8f8a-fc06f0d98e65")
 	)
 	(label "LED9"
 		(at 281.94 123.19 180)
@@ -12352,7 +12398,7 @@
 		(uuid "c44dc14b-51a6-4683-9675-641d5280feef")
 	)
 	(label "LED3"
-		(at 298.45 127 180)
+		(at 298.45 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12391,16 +12437,6 @@
 		)
 		(uuid "c9cc13d5-a46a-4ede-aed0-b43f52ea3044")
 	)
-	(label "LED14"
-		(at 298.45 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c9d64943-eee7-4eeb-8a70-5214606409b0")
-	)
 	(label "PWR_BTN"
 		(at 25.4 35.56 180)
 		(effects
@@ -12421,6 +12457,26 @@
 		)
 		(uuid "d269ad35-5aff-4945-aa29-e954a2bf90b1")
 	)
+	(label "LED16"
+		(at 298.45 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2e418a1-2d01-424b-81f7-e226ee637da2")
+	)
+	(label "PWR_BTN"
+		(at 25.4 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d35e3c11-678a-4131-8cdd-d9975d50a314")
+	)
 	(label "VDD_nRF"
 		(at 124.46 161.29 180)
 		(effects
@@ -12430,36 +12486,6 @@
 			(justify right bottom)
 		)
 		(uuid "d546550d-6af3-408a-8e06-6f7dfdd87d96")
-	)
-	(label "LED15"
-		(at 298.45 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d6671904-a999-41e4-b95f-766724f49048")
-	)
-	(label "COL7"
-		(at 45.72 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d9ff54c5-f544-4e56-9ff5-4cfb73684c22")
-	)
-	(label "LED19"
-		(at 298.45 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "da3ba6ce-2388-486e-a75f-da4c2cdf7cb8")
 	)
 	(label "COL3"
 		(at 106.68 207.01 180)
@@ -12511,25 +12537,15 @@
 		)
 		(uuid "e2f97358-c82c-478a-89ae-c7177defd1c8")
 	)
-	(label "ROW1"
-		(at 105.41 134.62 0)
+	(label "PWR_BTN_PRESS"
+		(at 45.72 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "e41f201f-a008-472c-9097-3e59cb2a680e")
-	)
-	(label "LED8"
-		(at 323.85 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4a0f1b3-a3c6-474d-a5ad-c3748db9a96e")
+		(uuid "e6894d42-e2ea-4b5f-9ff2-ada5740207f2")
 	)
 	(label "VDD_nRF"
 		(at 229.87 38.1 0)
@@ -12540,6 +12556,16 @@
 			(justify left bottom)
 		)
 		(uuid "e95bb35d-b668-41c1-9101-5eedda400b2f")
+	)
+	(label "ROW2"
+		(at 45.72 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eae06a22-7757-41d2-ad01-bfdc07f2fadc")
 	)
 	(label "COL5"
 		(at 182.88 208.28 180)
@@ -12591,8 +12617,38 @@
 		)
 		(uuid "f8fe30c6-b8ba-4c81-81c3-568d75dc35b8")
 	)
+	(label "LED18"
+		(at 323.85 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9bae95f-90e6-4f1a-8121-a4b11e3845df")
+	)
+	(label "LED11"
+		(at 323.85 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9baf0c4-b90f-4ab0-b487-dba8720cdeff")
+	)
+	(label "LED19"
+		(at 323.85 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa42aae5-b46c-4e77-815f-7f9fa4280865")
+	)
 	(label "LED2"
-		(at 298.45 129.54 180)
+		(at 298.45 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12863,7 +12919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 74.422 310.388 0)
 			(effects
 				(font
@@ -13123,6 +13179,81 @@
 			(project "kicad"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:RC0402FR-071ML")
+		(at 25.4 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f0c2399-bf0f-4e51-9d2e-5516955ffb07")
+		(property "Reference" "R17"
+			(at 19.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0402FR-071ML"
+			(at 21.59 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1MR-1004-1_C138033.html"
+			(at 35.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1M"
+			(at 25.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C138033"
+			(at 21.844 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93e66b34-b1a2-4613-9b59-d8e5d8e4fdad")
+		)
+		(pin "2"
+			(uuid "10c57738-d312-46ad-9d2c-dcaf8cea56db")
+		)
+		(instances
+			(project "left"
+				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -13482,7 +13613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 74.422 234.188 0)
 			(effects
 				(font
@@ -13918,7 +14049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 74.422 284.988 0)
 			(effects
 				(font
@@ -14064,7 +14195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 36.322 284.988 0)
 			(effects
 				(font
@@ -14895,7 +15026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 112.522 284.988 0)
 			(effects
 				(font
@@ -16647,6 +16778,81 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:WR04W2494FTL")
+		(at 25.4 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "587c78ce-4d89-490d-bc32-7d66b22b1a1d")
+		(property "Reference" "R18"
+			(at 19.05 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WR04W2494FTL"
+			(at 21.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 33.02 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Walsin-Tech-Corp-WR04W2494FTL_C368359.html"
+			(at 35.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2M49"
+			(at 25.4 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part" "C368359"
+			(at 21.844 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7952c365-bf73-4260-9d4b-95d0f6143d27")
+		)
+		(pin "2"
+			(uuid "ba44e879-7e55-4907-935e-239fed10ee07")
+		)
+		(instances
+			(project "left"
+				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "keys:choc_v1_hex")
 		(at 251.46 237.49 0)
 		(unit 1)
@@ -16672,7 +16878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 250.952 244.348 0)
 			(effects
 				(font
@@ -17027,7 +17233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 36.322 234.188 0)
 			(effects
 				(font
@@ -17095,7 +17301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 150.622 234.188 0)
 			(effects
 				(font
@@ -17321,7 +17527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 188.722 234.188 0)
 			(effects
 				(font
@@ -18070,7 +18276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 150.622 284.988 0)
 			(effects
 				(font
@@ -18138,7 +18344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 188.722 284.988 0)
 			(effects
 				(font
@@ -20317,7 +20523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 112.522 310.388 0)
 			(effects
 				(font
@@ -20581,6 +20787,73 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 25.4 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1491f9f-6705-48af-bdb9-7e8853a238e6")
+		(property "Reference" "#PWR030"
+			(at 25.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 168.91 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99ba9623-1699-4fb5-8918-984c07d1a8b9")
+		)
+		(instances
+			(project "left"
+				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "keys:choc_v1_hex")
 		(at 113.03 227.33 0)
 		(unit 1)
@@ -20606,7 +20879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 112.522 234.188 0)
 			(effects
 				(font
@@ -20989,7 +21262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 188.722 310.388 0)
 			(effects
 				(font
@@ -21690,7 +21963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 36.322 259.588 0)
 			(effects
 				(font
@@ -21971,7 +22244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 112.522 259.588 0)
 			(effects
 				(font
@@ -22119,7 +22392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 74.422 259.588 0)
 			(effects
 				(font
@@ -23035,7 +23308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 188.722 259.588 0)
 			(effects
 				(font
@@ -23103,7 +23376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 150.622 310.388 0)
 			(effects
 				(font
@@ -23171,7 +23444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 150.622 259.588 0)
 			(effects
 				(font

@@ -11917,6 +11917,16 @@
 		)
 		(uuid "55ec24dd-9de5-4123-b7aa-832678745559")
 	)
+	(label "PWR_BTN_PRESS"
+		(at 45.72 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56874a2a-58fa-4044-b130-42d4f85553d6")
+	)
 	(label "BAT+"
 		(at 83.82 25.4 180)
 		(effects
@@ -12536,16 +12546,6 @@
 			(justify right bottom)
 		)
 		(uuid "e2f97358-c82c-478a-89ae-c7177defd1c8")
-	)
-	(label "PWR_BTN_PRESS"
-		(at 45.72 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e6894d42-e2ea-4b5f-9ff2-ada5740207f2")
 	)
 	(label "VDD_nRF"
 		(at 229.87 38.1 0)

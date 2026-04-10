@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -93,7 +93,6 @@
       "unconnected-(U2-P0.07-Pad22)",
       "unconnected-(U2-P12-Pad20)",
       "unconnected-(U2-AI2-Pad18)",
-      "unconnected-(U2-P0.03-Pad3)",
       "unconnected-(U3-Q-Pad5)",
       "/ROW4",
       "unconnected-(U2-P0.06-Pad14)",
@@ -112,7 +111,8 @@
       "unconnected-(U2-NF1-Pad41)",
       "unconnected-(U2-P1.13-Pad6)",
       "unconnected-(U2-P0.24-Pad35)",
-      "unconnected-(U2-AI5-Pad8)"
+      "unconnected-(U2-AI5-Pad8)",
+      "/PWR_BTN_PRESS"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -158,7 +158,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd575_575555a5",
+    "visible_layers": "ffffffff_ffffffff_ffffd575_57555525",
     "zone_display_mode": 0
   },
   "git": {

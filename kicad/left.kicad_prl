@@ -109,7 +109,10 @@
       "unconnected-(U2-P0.24-Pad35)",
       "unconnected-(U2-AI5-Pad8)",
       "/PWR_BTN_PRESS",
-      "unconnected-(U2-P0.03-Pad3)"
+      "unconnected-(U2-P0.03-Pad3)",
+      "Net-(U1-A)",
+      "unconnected-(U1-N.C-Pad1)",
+      "Net-(U1-Y)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -155,7 +158,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_02000024",
+    "visible_layers": "00000000_00000000_00000000_00000020",
     "zone_display_mode": 0
   },
   "git": {

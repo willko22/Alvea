@@ -104,7 +104,15 @@
       "unconnected-(U2-AI5-Pad8)",
       "unconnected-(U2-SWD-Pad37)",
       "unconnected-(U2-SWC-Pad39)",
-      "/PWR_BTN_PRESS"
+      "/PWR_BTN_PRESS",
+      "Net-(U1-A)",
+      "Net-(U6-VM)",
+      "Net-(U5-PROG)",
+      "unconnected-(U1-N.C-Pad1)",
+      "Net-(U1-Y)",
+      "unconnected-(U5-NC-Pad8)",
+      "unconnected-(U5-NC-Pad1)",
+      "unconnected-(U6-NC-Pad4)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -150,7 +158,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_00000025",
+    "visible_layers": "00000000_00000000_00000000_00000000",
     "zone_display_mode": 0
   },
   "git": {

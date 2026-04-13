@@ -292,1466 +292,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GRM033C71C104KE14D_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_1_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_1_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_10"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_10_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_10_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_11"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_11_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_11_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_12"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_12_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_12_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_13"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_13_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_13_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_14"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_14_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_14_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_15"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_15_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_15_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_16"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_16_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_16_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_17"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_17_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_17_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_18"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_18_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_18_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GRM033C71C104KE14D_19"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1859,1320 +399,6 @@
 				)
 			)
 			(symbol "GRM033C71C104KE14D_19_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_2_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_20"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_20_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_20_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_3_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_3_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_4"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_4_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_4_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_5_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_5_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_6"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_6_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_6_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_7"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_7_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_7_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_8"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_8_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_8_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM033C71C104KE14D_9"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_9_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_9_1_1"
 				(pin input line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -9856,152 +7082,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:GRM033C71C104KE14D"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM033C71C104KE14D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C85923"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM033C71C104KE14D_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:GRM155C71C105KE11D"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -13428,7 +10508,7 @@
 		)
 	)
 	(rectangle
-		(start 176.53 66.04)
+		(start 176.53 87.63)
 		(end 403.225 194.31)
 		(stroke
 			(width 0)
@@ -13529,7 +10609,7 @@
 	)
 	(text "LED Matrix"
 		(exclude_from_sim no)
-		(at 354.838 81.788 0)
+		(at 237.998 96.774 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -13649,46 +10729,16 @@
 		(uuid "1f4bb628-023d-4863-973b-f4c54d6af0ee")
 	)
 	(junction
-		(at 247.65 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20947a4b-b421-4e9e-8d36-c2ed220deae2")
-	)
-	(junction
-		(at 234.95 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20d7c947-fc3a-4581-b9eb-edd5d3fc53e5")
-	)
-	(junction
-		(at 215.9 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23f6a91d-9c79-41d7-98ab-37903b7af52a")
-	)
-	(junction
 		(at 328.93 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25a3c877-f7da-4ac3-ad5f-1ad3fe9e931f")
 	)
 	(junction
-		(at 266.7 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2673d346-3d25-430c-8a68-ef5f6dbadbb8")
-	)
-	(junction
 		(at 327.66 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "283b0a16-fa55-485f-8c20-8a4210b68ccf")
-	)
-	(junction
-		(at 279.4 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f579db6-600a-4138-811d-6b21b6eeed6a")
 	)
 	(junction
 		(at 147.32 50.8)
@@ -13709,34 +10759,10 @@
 		(uuid "360d9a56-ff59-4453-bf79-42c2a881c00c")
 	)
 	(junction
-		(at 241.3 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3890136e-1dca-48ed-8a63-2c4c80d47d78")
-	)
-	(junction
 		(at 25.4 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a099946-004b-4733-801d-9975dddc9038")
-	)
-	(junction
-		(at 203.2 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b5f00ca-f847-4937-be34-28e8feeab6d3")
-	)
-	(junction
-		(at 247.65 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e330f9b-3bc2-4380-b400-ccb3514a34dc")
-	)
-	(junction
-		(at 273.05 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40c4c92c-cf7b-4b7a-baf4-13d71f53f548")
 	)
 	(junction
 		(at 242.57 165.1)
@@ -13775,18 +10801,6 @@
 		(uuid "492f89f9-4d50-42f1-be64-4e4b7cecc386")
 	)
 	(junction
-		(at 304.8 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "494e4b6c-422d-477f-87f9-56e8fe0de380")
-	)
-	(junction
-		(at 298.45 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52cebf6b-8f26-4616-bf44-a2b3d3744898")
-	)
-	(junction
 		(at 76.2 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13803,18 +10817,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "576603e2-ac38-45e9-90a9-5fdf1a74a95d")
-	)
-	(junction
-		(at 260.35 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5853ab85-7ee2-4545-8081-d540b11565d4")
-	)
-	(junction
-		(at 209.55 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b05230f-1ef3-40c7-8491-00b0317ba3ed")
 	)
 	(junction
 		(at 242.57 187.96)
@@ -13835,12 +10837,6 @@
 		(uuid "5d06fef7-5065-499a-bf8e-34abf28caf19")
 	)
 	(junction
-		(at 228.6 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e4278a8-2604-4068-8553-81074823697f")
-	)
-	(junction
 		(at 189.23 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13853,28 +10849,10 @@
 		(uuid "5f874082-3b68-4f29-8b25-0c9b8bdc3ebb")
 	)
 	(junction
-		(at 292.1 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62828684-c749-4860-955e-14d7751afe32")
-	)
-	(junction
 		(at 182.88 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66664d10-e543-412e-aedb-f1398efe4a2b")
-	)
-	(junction
-		(at 209.55 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "674ff5c5-1722-4ef1-873f-5fbb1f48bfd1")
-	)
-	(junction
-		(at 266.7 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6aa56b9c-01c5-483f-a656-f4464e69e26e")
 	)
 	(junction
 		(at 123.19 217.17)
@@ -13901,28 +10879,22 @@
 		(uuid "7a2fca81-c1ca-4ea0-a625-e09e1e0ff73b")
 	)
 	(junction
-		(at 241.3 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c52a193-cd19-4fbf-8bac-0fde674ff75a")
-	)
-	(junction
 		(at 210.82 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c7a77ce-5c0b-455c-aec9-595d52ebfb98")
 	)
 	(junction
+		(at 97.79 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eb403ff-b8dd-431b-9398-bf214abe40e1")
+	)
+	(junction
 		(at 345.44 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "802745f0-7db4-4353-8f37-0c4167a34b61")
-	)
-	(junction
-		(at 298.45 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80d544df-7841-45cb-8ac4-2c051c797fb3")
 	)
 	(junction
 		(at 68.58 227.33)
@@ -13935,18 +10907,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8417d524-4a85-45eb-88ed-096a69f9384f")
-	)
-	(junction
-		(at 254 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "891f00e0-4533-4c78-ad44-8170f4364a3f")
-	)
-	(junction
-		(at 285.75 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d37fbe9-f067-4f04-b494-b36fc0a29eaa")
 	)
 	(junction
 		(at 138.43 161.29)
@@ -13985,46 +10945,10 @@
 		(uuid "987f82b9-6ac4-4798-95b3-2b9af1cacb14")
 	)
 	(junction
-		(at 196.85 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a9112b3-68ab-4027-bc24-ea2a6b5efec2")
-	)
-	(junction
 		(at 50.8 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b971a1c-1bb6-414f-b2c9-70dccc919f46")
-	)
-	(junction
-		(at 215.9 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ccc2a97-7d29-4097-aaa7-b76d85f22f41")
-	)
-	(junction
-		(at 228.6 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f8df2db-cd33-4411-bcb7-ee83b14186e3")
-	)
-	(junction
-		(at 260.35 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2356685-d7e3-4a3d-945c-628aaaf3255a")
-	)
-	(junction
-		(at 311.15 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6945e5d-c233-4d29-9056-ce12cbc1d8ef")
-	)
-	(junction
-		(at 292.1 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7f4847d-fe4b-4a36-acf3-6fb3d9a06b63")
 	)
 	(junction
 		(at 129.54 57.15)
@@ -14045,18 +10969,6 @@
 		(uuid "add7f228-4d59-4684-9491-687c8b2fe96d")
 	)
 	(junction
-		(at 97.79 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1362557-9b44-421f-ab3d-4a8e3d0f29e3")
-	)
-	(junction
-		(at 190.5 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b40c4495-5c07-46eb-8536-78434dea9a36")
-	)
-	(junction
 		(at 68.58 278.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14067,18 +10979,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b542a197-ccf3-41af-a07c-00d5372381e5")
-	)
-	(junction
-		(at 196.85 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b88990e9-0b89-4761-a829-82d8667c0b44")
-	)
-	(junction
-		(at 222.25 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8e4fb6f-f317-45cc-8d3d-8137f7b0af53")
 	)
 	(junction
 		(at 46.99 46.99)
@@ -14123,22 +11023,10 @@
 		(uuid "c97543b0-c6c0-49ce-9541-f516b2ae614a")
 	)
 	(junction
-		(at 285.75 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ccefa0a3-4ef0-48e6-80f9-88157773eb74")
-	)
-	(junction
 		(at 25.4 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d221b8cf-8524-4007-a1f8-0425d7e9c445")
-	)
-	(junction
-		(at 222.25 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d36750df-08c4-41ae-a0f9-ba44954f00ac")
 	)
 	(junction
 		(at 144.78 227.33)
@@ -14157,12 +11045,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7221425-29ba-4ebc-a528-df1e583f5535")
-	)
-	(junction
-		(at 304.8 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7a35ba8-29af-4d6e-b948-5bad8db33d4f")
 	)
 	(junction
 		(at 210.82 132.08)
@@ -14195,12 +11077,6 @@
 		(uuid "de330360-7817-4e2e-9700-f11969b76302")
 	)
 	(junction
-		(at 234.95 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dedbb10e-14b1-4b1a-ba1e-498c71177eba")
-	)
-	(junction
 		(at 96.52 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14231,22 +11107,10 @@
 		(uuid "e34df715-09ec-455e-b78d-d6ca5e04fc06")
 	)
 	(junction
-		(at 273.05 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e448b712-52f0-4a42-9c61-948dc30e54f6")
-	)
-	(junction
 		(at 30.48 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6f3ca47-8bfd-4dcf-87c6-e2907e553508")
-	)
-	(junction
-		(at 279.4 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec416393-6e87-4d97-9a0f-985a5e0eea11")
 	)
 	(junction
 		(at 119.38 50.8)
@@ -14259,12 +11123,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef9e4596-710f-4955-a5a9-46d5bac7448f")
-	)
-	(junction
-		(at 254 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f28ed413-1ad0-4877-ba64-4d88112b2c88")
 	)
 	(junction
 		(at 182.88 252.73)
@@ -14289,12 +11147,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc07849d-fbde-4a14-a64c-81066d40d028")
-	)
-	(junction
-		(at 203.2 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc914363-524a-4fd2-ba8d-0cfd5482a37f")
 	)
 	(bus_entry
 		(at 330.2 134.62)
@@ -14696,16 +11548,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 52.07) (xy 97.79 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01705b0a-3131-4216-a0c9-727759b9db9c")
-	)
-	(wire
-		(pts
 			(xy 227.33 187.96) (xy 242.57 187.96)
 		)
 		(stroke
@@ -14763,16 +11605,6 @@
 			(type default)
 		)
 		(uuid "07c8a001-face-4734-9c28-18b14b2ea7ca")
-	)
-	(wire
-		(pts
-			(xy 241.3 71.12) (xy 247.65 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "081eee12-33bd-49b7-8968-e1cbf0d03bd8")
 	)
 	(wire
 		(pts
@@ -14856,16 +11688,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 91.44) (xy 292.1 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ccc2028-3370-4e70-ba2d-a6271b4a01b5")
-	)
-	(wire
-		(pts
 			(xy 237.49 142.24) (xy 238.76 142.24)
 		)
 		(stroke
@@ -14873,16 +11695,6 @@
 			(type default)
 		)
 		(uuid "0dc4d951-c645-479c-9465-d8e93842f48a")
-	)
-	(wire
-		(pts
-			(xy 247.65 91.44) (xy 254 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e47475b-3037-4fad-a4c0-93ca333ea4b9")
 	)
 	(wire
 		(pts
@@ -14946,16 +11758,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 71.12) (xy 311.15 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15ac54c5-63c8-4df5-be19-0a40b994515a")
-	)
-	(wire
-		(pts
 			(xy 161.29 303.53) (xy 157.48 303.53)
 		)
 		(stroke
@@ -14973,16 +11775,6 @@
 			(type default)
 		)
 		(uuid "163db3d4-1e86-4d71-9cf5-74c42dd70424")
-	)
-	(wire
-		(pts
-			(xy 254 91.44) (xy 260.35 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "168dad27-c49b-49c9-9d0a-13978d45967b")
 	)
 	(bus
 		(pts
@@ -15086,26 +11878,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 91.44) (xy 222.25 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bec8063-3483-4bd4-936d-5ca7819f2b72")
-	)
-	(wire
-		(pts
-			(xy 203.2 71.12) (xy 209.55 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d3fac8a-7ff8-4506-91bc-4ccbb6d98c2e")
-	)
-	(wire
-		(pts
 			(xy 182.88 38.1) (xy 172.72 38.1)
 		)
 		(stroke
@@ -15113,36 +11885,6 @@
 			(type default)
 		)
 		(uuid "1e892d4f-ec21-4212-8899-2c9f03dc727b")
-	)
-	(wire
-		(pts
-			(xy 285.75 71.12) (xy 285.75 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ed7a472-a5cf-4270-8b90-aa0d435f5211")
-	)
-	(wire
-		(pts
-			(xy 260.35 71.12) (xy 266.7 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f80e710-14b2-48f8-b036-dfcb66cb5267")
-	)
-	(wire
-		(pts
-			(xy 298.45 71.12) (xy 304.8 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21465702-cf88-4f03-a845-a8387af9bb90")
 	)
 	(wire
 		(pts
@@ -15194,16 +11936,6 @@
 		)
 		(uuid "23deb241-79c3-4e10-8067-3f69b19efd39")
 	)
-	(wire
-		(pts
-			(xy 279.4 91.44) (xy 285.75 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "241bb787-c6fd-4a10-96e8-687401ec5919")
-	)
 	(bus
 		(pts
 			(xy 289.56 134.62) (xy 289.56 137.16)
@@ -15236,16 +11968,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 71.12) (xy 234.95 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "267ee42a-c9de-44f1-91ee-6885a01c48dc")
-	)
-	(wire
-		(pts
 			(xy 147.32 50.8) (xy 138.43 50.8)
 		)
 		(stroke
@@ -15253,16 +11975,6 @@
 			(type default)
 		)
 		(uuid "26baa1e0-d40f-4aa6-84c0-b5773e821cc5")
-	)
-	(wire
-		(pts
-			(xy 273.05 91.44) (xy 279.4 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26efe7b9-e9fb-4aea-b348-0fd402120b66")
 	)
 	(wire
 		(pts
@@ -15283,26 +11995,6 @@
 			(type default)
 		)
 		(uuid "2937937b-e65c-4519-b537-07eacc59d9a8")
-	)
-	(wire
-		(pts
-			(xy 292.1 78.74) (xy 292.1 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b907bda-9a03-4223-be7a-d25cdeec12cc")
-	)
-	(wire
-		(pts
-			(xy 234.95 91.44) (xy 241.3 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bacb3f1-4079-4597-81eb-cd29cc425497")
 	)
 	(wire
 		(pts
@@ -15366,16 +12058,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 91.44) (xy 215.9 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30ce2da5-2c84-4610-ba84-2645bf2e8194")
-	)
-	(wire
-		(pts
 			(xy 143.51 25.4) (xy 138.43 25.4)
 		)
 		(stroke
@@ -15403,16 +12085,6 @@
 			(type default)
 		)
 		(uuid "33c607eb-5323-42e6-81d6-dab43a29bb0b")
-	)
-	(wire
-		(pts
-			(xy 241.3 91.44) (xy 247.65 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3548acf3-9b9e-4ac5-95f7-41f9c109cc1c")
 	)
 	(wire
 		(pts
@@ -15463,26 +12135,6 @@
 			(type default)
 		)
 		(uuid "3723ef3c-ffd5-4240-8a80-f8b86d7beb39")
-	)
-	(wire
-		(pts
-			(xy 196.85 91.44) (xy 203.2 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37970cac-ba24-484c-be97-369a63132fb1")
-	)
-	(wire
-		(pts
-			(xy 285.75 71.12) (xy 292.1 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38b6adb9-114a-48d2-ad55-ac3a6ebed029")
 	)
 	(wire
 		(pts
@@ -15746,16 +12398,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 71.12) (xy 196.85 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48bf30fa-8ac7-471b-be07-ea887eb88bc6")
-	)
-	(wire
-		(pts
 			(xy 208.28 107.95) (xy 281.94 107.95)
 		)
 		(stroke
@@ -15806,16 +12448,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 71.12) (xy 254 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc9ef11-28c7-4067-81a6-4e7a5743f38b")
-	)
-	(wire
-		(pts
 			(xy 106.68 227.33) (xy 106.68 252.73)
 		)
 		(stroke
@@ -15836,16 +12468,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 91.44) (xy 298.45 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "518045eb-6825-4cb1-aff8-cdf865be7dca")
-	)
-	(wire
-		(pts
 			(xy 220.98 132.08) (xy 222.25 132.08)
 		)
 		(stroke
@@ -15853,16 +12475,6 @@
 			(type default)
 		)
 		(uuid "51cbdb63-4f96-4d4a-b632-5c6c86ba7b1b")
-	)
-	(wire
-		(pts
-			(xy 196.85 71.12) (xy 196.85 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52b2afb9-c549-49b9-99b9-674440633224")
 	)
 	(wire
 		(pts
@@ -15933,16 +12545,6 @@
 			(type default)
 		)
 		(uuid "57ebffa4-95b8-4e54-8537-d538707ce51e")
-	)
-	(wire
-		(pts
-			(xy 241.3 78.74) (xy 241.3 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5858792f-cf7d-4100-a719-e1b4bc97f8b6")
 	)
 	(wire
 		(pts
@@ -16256,16 +12858,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 91.44) (xy 273.05 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "700763f7-abe9-4fb4-a261-77a1fc710551")
-	)
-	(wire
-		(pts
 			(xy 267.97 162.56) (xy 269.24 162.56)
 		)
 		(stroke
@@ -16293,16 +12885,6 @@
 			(type default)
 		)
 		(uuid "71a17e94-8563-4ad9-9af6-14be557fb523")
-	)
-	(wire
-		(pts
-			(xy 266.7 71.12) (xy 273.05 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "721c02b4-8626-40aa-b117-76e0f5d62f8d")
 	)
 	(wire
 		(pts
@@ -16396,16 +12978,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 71.12) (xy 273.05 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79d9eba2-49dd-4194-8cc3-18d4b3c0f4c8")
-	)
-	(wire
-		(pts
 			(xy 256.54 140.97) (xy 281.94 140.97)
 		)
 		(stroke
@@ -16426,26 +12998,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 78.74) (xy 228.6 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bf558ce-fa47-4cf3-a948-787f199320e7")
-	)
-	(wire
-		(pts
-			(xy 215.9 71.12) (xy 222.25 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ddabbe8-e1d4-4b3a-b676-f27275b24f0b")
-	)
-	(wire
-		(pts
 			(xy 323.85 142.24) (xy 330.2 142.24)
 		)
 		(stroke
@@ -16463,16 +13015,6 @@
 			(type default)
 		)
 		(uuid "7e699676-5139-40a3-98a2-4c31215453be")
-	)
-	(wire
-		(pts
-			(xy 203.2 78.74) (xy 203.2 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f38e93b-3c96-40b7-8474-c121a81c4bbc")
 	)
 	(wire
 		(pts
@@ -16556,26 +13098,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 78.74) (xy 215.9 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83ff4163-e081-4a3b-8f45-1fb713748b19")
-	)
-	(wire
-		(pts
-			(xy 304.8 78.74) (xy 304.8 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "843e1ebf-d039-4595-ad3d-f2b72529e24c")
-	)
-	(wire
-		(pts
 			(xy 254 152.4) (xy 254 135.89)
 		)
 		(stroke
@@ -16616,26 +13138,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 78.74) (xy 279.4 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85e348ef-d382-43d7-b300-0ec07acbf752")
-	)
-	(wire
-		(pts
-			(xy 203.2 91.44) (xy 209.55 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "865c2abb-2adf-4c9d-889e-18228092d05f")
-	)
-	(wire
-		(pts
 			(xy 313.69 25.4) (xy 278.13 25.4)
 		)
 		(stroke
@@ -16666,16 +13168,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 71.12) (xy 241.3 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8862b65c-bb56-4c91-b5f5-607d254a87a4")
-	)
-	(wire
-		(pts
 			(xy 143.51 40.64) (xy 138.43 40.64)
 		)
 		(stroke
@@ -16693,16 +13185,6 @@
 			(type default)
 		)
 		(uuid "88a212fc-29a4-40fa-bf3f-3d225af934b0")
-	)
-	(wire
-		(pts
-			(xy 304.8 91.44) (xy 311.15 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88fba031-7c17-448f-ac82-55ee7628e17b")
 	)
 	(wire
 		(pts
@@ -16876,16 +13358,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 71.12) (xy 222.25 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9576d2b2-8451-4091-a531-0b87dfaf0727")
-	)
-	(wire
-		(pts
 			(xy 252.73 152.4) (xy 254 152.4)
 		)
 		(stroke
@@ -16893,16 +13365,6 @@
 			(type default)
 		)
 		(uuid "96db79a2-b505-4911-83ba-503bcaa47c9e")
-	)
-	(wire
-		(pts
-			(xy 273.05 71.12) (xy 279.4 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "976c3327-8a1f-4f85-a0e3-5d9ab1e325b0")
 	)
 	(wire
 		(pts
@@ -16956,16 +13418,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 71.12) (xy 260.35 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "996ff876-e669-4130-9bf9-48be5b7cdfc9")
-	)
-	(wire
-		(pts
 			(xy 269.24 162.56) (xy 269.24 146.05)
 		)
 		(stroke
@@ -16973,16 +13425,6 @@
 			(type default)
 		)
 		(uuid "997e5079-8756-4f5b-a00d-dfc19bf4def7")
-	)
-	(wire
-		(pts
-			(xy 254 71.12) (xy 260.35 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99c08015-19ce-4622-aa7c-41ca52112e79")
 	)
 	(wire
 		(pts
@@ -17054,16 +13496,6 @@
 		)
 		(uuid "9d7d20b5-d10a-4f70-a5d4-d85bea365c67")
 	)
-	(wire
-		(pts
-			(xy 222.25 91.44) (xy 228.6 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9deae131-4b51-4b33-84c6-0b64bf9dcd91")
-	)
 	(bus
 		(pts
 			(xy 289.56 124.46) (xy 289.56 129.54)
@@ -17096,6 +13528,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 62.23) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03e5026-6d46-4b4a-949c-405a0bd8be71")
+	)
+	(wire
+		(pts
 			(xy 240.03 154.94) (xy 240.03 128.27)
 		)
 		(stroke
@@ -17123,16 +13565,6 @@
 			(type default)
 		)
 		(uuid "a2d686ec-2332-487e-ba5e-5f863ad17a3d")
-	)
-	(wire
-		(pts
-			(xy 234.95 71.12) (xy 234.95 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a325bd99-ad17-4d18-b234-304f3bf0e502")
 	)
 	(wire
 		(pts
@@ -17203,16 +13635,6 @@
 			(type default)
 		)
 		(uuid "a7f2484d-23cb-4afa-8f90-28ddf3e33eda")
-	)
-	(wire
-		(pts
-			(xy 247.65 71.12) (xy 247.65 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8428b57-f36f-4750-873d-44ac64bf1925")
 	)
 	(wire
 		(pts
@@ -17383,16 +13805,6 @@
 			(type default)
 		)
 		(uuid "b1667e48-e56b-45e6-9d64-278ab733996f")
-	)
-	(wire
-		(pts
-			(xy 311.15 83.82) (xy 311.15 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2365fb6-54fa-4803-9a38-4f319be17f1a")
 	)
 	(wire
 		(pts
@@ -17646,16 +14058,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 71.12) (xy 209.55 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c246f1d7-fb16-43c4-a886-2f4c2a4c7d33")
-	)
-	(wire
-		(pts
 			(xy 256.54 177.8) (xy 256.54 140.97)
 		)
 		(stroke
@@ -17673,16 +14075,6 @@
 			(type default)
 		)
 		(uuid "c41fb28a-657e-440f-957d-8603ad4da21e")
-	)
-	(wire
-		(pts
-			(xy 190.5 91.44) (xy 196.85 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c59aa141-8bcd-4b17-a9ff-83c3a9f8ded5")
 	)
 	(bus
 		(pts
@@ -17744,16 +14136,6 @@
 		)
 		(uuid "c9fc0575-5694-4088-9f79-a7e73d918d75")
 	)
-	(wire
-		(pts
-			(xy 190.5 78.74) (xy 190.5 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca237ce1-a825-408f-8d4d-87e1724ad382")
-	)
 	(bus
 		(pts
 			(xy 289.56 106.68) (xy 289.56 109.22)
@@ -17776,16 +14158,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 71.12) (xy 298.45 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbacc82b-fcf5-4c70-bb99-6de1badc5dba")
-	)
-	(wire
-		(pts
 			(xy 138.43 27.94) (xy 147.32 27.94)
 		)
 		(stroke
@@ -17803,16 +14175,6 @@
 			(type default)
 		)
 		(uuid "cc312a29-70d0-41fd-bc49-be619725b7ca")
-	)
-	(wire
-		(pts
-			(xy 196.85 71.12) (xy 203.2 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc966a6e-cdaf-49bd-8358-e815a4fa51dd")
 	)
 	(wire
 		(pts
@@ -17986,16 +14348,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 91.44) (xy 266.7 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da3b6e2a-281a-4389-a047-c15893b62af5")
-	)
-	(wire
-		(pts
 			(xy 229.87 38.1) (xy 228.6 38.1)
 		)
 		(stroke
@@ -18146,16 +14498,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 91.44) (xy 304.8 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3f5daa8-ca88-4f18-bbc1-99b0f0c8f0a9")
-	)
-	(wire
-		(pts
 			(xy 85.09 303.53) (xy 81.28 303.53)
 		)
 		(stroke
@@ -18246,26 +14588,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 71.12) (xy 285.75 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7b726d2-5bdd-4704-b1d5-38e27f0c4252")
-	)
-	(wire
-		(pts
-			(xy 222.25 71.12) (xy 228.6 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e810560c-09f5-455e-8dea-0ac0e4cc7547")
-	)
-	(wire
-		(pts
 			(xy 205.74 38.1) (xy 212.09 38.1)
 		)
 		(stroke
@@ -18316,16 +14638,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 78.74) (xy 254 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef805de0-0c32-4cff-822b-2007386ea197")
-	)
-	(wire
-		(pts
 			(xy 210.82 119.38) (xy 210.82 132.08)
 		)
 		(stroke
@@ -18333,16 +14645,6 @@
 			(type default)
 		)
 		(uuid "f01defb5-0771-4d40-b50e-04f8ee16ab42")
-	)
-	(wire
-		(pts
-			(xy 311.15 71.12) (xy 304.8 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f13ec306-c4c6-4bde-9ef6-d3cd5f5ee395")
 	)
 	(wire
 		(pts
@@ -18396,16 +14698,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 91.44) (xy 190.5 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4a40976-cebd-48a3-ba5a-afaeb7f09fd1")
-	)
-	(wire
-		(pts
 			(xy 252.73 177.8) (xy 256.54 177.8)
 		)
 		(stroke
@@ -18413,16 +14705,6 @@
 			(type default)
 		)
 		(uuid "f4c8e6fa-7f5f-4305-95c0-ef0ccb5ba1d5")
-	)
-	(wire
-		(pts
-			(xy 209.55 71.12) (xy 215.9 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5169305-f6d7-436e-af3e-d15aafa1f66e")
 	)
 	(wire
 		(pts
@@ -18443,16 +14725,6 @@
 			(type default)
 		)
 		(uuid "f61fe0e5-af37-4cd8-b544-576a5b9d55e5")
-	)
-	(wire
-		(pts
-			(xy 266.7 78.74) (xy 266.7 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f87b27d8-d86f-483c-858b-cbb7eda787f7")
 	)
 	(wire
 		(pts
@@ -18483,16 +14755,6 @@
 			(type default)
 		)
 		(uuid "fb3b9e37-bfb0-4fea-bfea-d888d72c31e6")
-	)
-	(wire
-		(pts
-			(xy 292.1 71.12) (xy 298.45 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc73afb5-2ec4-48f6-b588-4779b7a3c910")
 	)
 	(wire
 		(pts
@@ -18546,16 +14808,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 91.44) (xy 234.95 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe3fe2a2-5995-450d-9be0-f445a931ada9")
-	)
-	(wire
-		(pts
 			(xy 123.19 227.33) (xy 119.38 227.33)
 		)
 		(stroke
@@ -18563,6 +14815,16 @@
 			(type default)
 		)
 		(uuid "fe87c3b0-cac4-48b5-a8b6-1c4073e67a9c")
+	)
+	(wire
+		(pts
+			(xy 97.79 52.07) (xy 97.79 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb823ca-c0b3-4c70-aa7c-0ab1e4b87767")
 	)
 	(bus
 		(pts
@@ -18594,16 +14856,6 @@
 		)
 		(uuid "047018f6-3b31-4fa0-aecd-b1ffb0517e2d")
 	)
-	(label "SWBCLK"
-		(at 45.72 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "04ed28a0-3bb7-4110-af45-6669f74e36ea")
-	)
 	(label "BAT+"
 		(at 182.88 52.07 180)
 		(effects
@@ -18615,7 +14867,7 @@
 		(uuid "09dd4f7e-4328-4199-9ad2-fe1682e7d8f9")
 	)
 	(label "CHRG"
-		(at 105.41 96.52 0)
+		(at 105.41 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18653,6 +14905,16 @@
 			(justify right bottom)
 		)
 		(uuid "12776781-ac10-49fa-9de1-5aa5060a1f7d")
+	)
+	(label "SWDIO"
+		(at 105.41 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14322ac7-3e23-4ea8-b3aa-e40a3e118512")
 	)
 	(label "D+"
 		(at 143.51 43.18 0)
@@ -19265,7 +15527,7 @@
 		(uuid "9d0099f0-4158-445f-9986-ce864de2b152")
 	)
 	(label "STDBY"
-		(at 105.41 101.6 0)
+		(at 105.41 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19273,16 +15535,6 @@
 			(justify left bottom)
 		)
 		(uuid "9e254bda-030a-4093-af51-9758a7bfb059")
-	)
-	(label "PWR"
-		(at 313.69 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9eb3c900-6445-448d-9317-1f0398a68132")
 	)
 	(label "LED6"
 		(at 298.45 121.92 180)
@@ -19393,6 +15645,16 @@
 			(justify left bottom)
 		)
 		(uuid "ba1eecd9-dc43-4f21-bc9b-3d125fc11192")
+	)
+	(label "SWBCLK"
+		(at 105.41 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba47c83c-e692-450f-8ab3-33cac015ec36")
 	)
 	(label "RESET"
 		(at 105.41 139.7 0)
@@ -19634,16 +15896,6 @@
 		)
 		(uuid "e95bb35d-b668-41c1-9101-5eedda400b2f")
 	)
-	(label "SWDIO"
-		(at 45.72 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ebcd2265-6b36-4c83-aa7a-a76d6253b46c")
-	)
 	(label "COL5"
 		(at 182.88 208.28 180)
 		(effects
@@ -19703,85 +15955,6 @@
 			(justify right bottom)
 		)
 		(uuid "fa738a36-68cc-4040-a816-65221d42de0b")
-	)
-	(symbol
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 311.15 87.63 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04dcba5f-ed2a-4986-aa78-f2f85989f04e")
-		(property "Reference" "C26"
-			(at 307.34 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 307.34 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 318.77 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 321.31 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 308.102 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 304.546 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e45cc087-ab1a-4692-b6b9-04b9e093cc0b")
-		)
-		(pin "1"
-			(uuid "799b9ac1-27a7-4cba-a0a7-d395dd67f92c")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "easyeda2kicad:LPT67F-P1R2-35-Z")
@@ -19856,86 +16029,6 @@
 			(project "kicad"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "LED13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GRM033C71C104KE14D_20")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 279.4 74.93 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08297d1a-fd1d-428c-a0a1-551539adea92")
-		(property "Reference" "C21"
-			(at 275.59 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 275.59 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 287.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 289.56 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 276.352 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 272.796 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "85bc3ff1-2767-49dc-8726-9740e933b81c")
-		)
-		(pin "1"
-			(uuid "9da831f8-949f-4d1a-abf1-969ced174916")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -22004,86 +18097,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GRM033C71C104KE14D_17")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 266.7 74.93 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39ab8913-26e2-4471-b354-3970ac685b3a")
-		(property "Reference" "C19"
-			(at 262.89 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 262.89 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 274.32 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 276.86 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 263.652 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 260.096 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c2ee57e6-49c6-4eeb-9fcb-1146ef1b9483")
-		)
-		(pin "1"
-			(uuid "2589b895-4659-4681-aae6-0df988f17cee")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "CDSQC4148-HF_1")
 		(lib_id "easyeda2kicad:CDSQC4148-HF")
 		(at 123.19 273.05 90)
@@ -22226,86 +18239,6 @@
 			(project "kicad"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "S10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GRM033C71C104KE14D_18")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 260.35 87.63 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e3be27a-3a7c-41f1-ad06-d05240854d11")
-		(property "Reference" "C18"
-			(at 256.54 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 256.54 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 267.97 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 270.51 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 257.302 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 253.746 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6d83e499-e6ea-45a3-83d7-b70fea2c479e")
-		)
-		(pin "1"
-			(uuid "8e3410c4-2325-4fd6-b4c2-53b41edbcd13")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -22540,73 +18473,6 @@
 			(project "kicad"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "LED20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 187.96 91.44 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40623ec2-3635-46d0-915f-078c2007ce23")
-		(property "Reference" "#PWR021"
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 95.25 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc9c86c7-1ce7-4f26-afd6-2adc8393296b")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -22927,86 +18793,6 @@
 			(project ""
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GRM033C71C104KE14D_16")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 234.95 87.63 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48729d11-9c4c-42fc-8456-5d3c9e50a32b")
-		(property "Reference" "C14"
-			(at 231.14 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 231.14 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 242.57 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 245.11 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 231.902 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 228.346 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6d13bbdb-f553-4de4-a2af-29c1091c2c06")
-		)
-		(pin "1"
-			(uuid "92fddf5f-8a5b-43ba-957c-dd201ec13651")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -24795,86 +20581,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GRM033C71C104KE14D_15")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 247.65 87.63 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c21d7fd-9033-4a2a-914f-5d27d163e390")
-		(property "Reference" "C16"
-			(at 243.84 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 243.84 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 255.27 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 257.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 244.602 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 241.046 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "968dc7a8-edbc-4e47-8350-a8b4cd995685")
-		)
-		(pin "1"
-			(uuid "c76cec57-c14d-4b52-80a2-1e7f65b95d92")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:FC-13532.768KHZ9PF20PPM")
 		(at 55.88 154.94 0)
 		(mirror x)
@@ -24946,86 +20652,6 @@
 			(project "kicad"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "X1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GRM033C71C104KE14D_14")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 241.3 74.93 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "736d2d0c-1c9d-4496-9079-d8eb04a06d6a")
-		(property "Reference" "C15"
-			(at 237.49 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 237.49 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 248.92 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 251.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 238.252 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 234.696 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "56c555fb-ca49-47b4-9097-fa45dec46d30")
-		)
-		(pin "1"
-			(uuid "034c6640-b2b7-4636-9162-08a1b60cff7a")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -25486,7 +21112,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 90.17 62.23 270)
+		(at 88.9 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25495,7 +21121,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ec771bf-57a0-4bc9-b22e-9b14d60a0825")
 		(property "Reference" "#PWR011"
-			(at 83.82 62.23 0)
+			(at 82.55 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25504,7 +21130,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 62.23 0)
+			(at 85.09 62.23 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -25513,7 +21139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 62.23 0)
+			(at 88.9 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25522,7 +21148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 62.23 0)
+			(at 88.9 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25531,7 +21157,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 62.23 0)
+			(at 80.01 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26369,86 +21995,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GRM033C71C104KE14D_13")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 215.9 74.93 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "933753ab-8625-404b-afa2-c456e236b3bc")
-		(property "Reference" "C11"
-			(at 212.09 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 212.09 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 223.52 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 212.852 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 209.296 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "df955873-6289-443a-9cd6-822967ff2cd1")
-		)
-		(pin "1"
-			(uuid "8bb2d7f1-c829-4248-898f-a84aa010746c")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "CDSQC4148-HF_1")
 		(lib_id "easyeda2kicad:CDSQC4148-HF")
 		(at 199.39 247.65 90)
@@ -26669,84 +22215,6 @@
 			(project "kicad"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "LED9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GRM033C71C104KE14D_10")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 190.5 74.93 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "975eaaa7-feab-480a-b43a-1f0a4a132aef")
-		(property "Reference" "C7"
-			(at 185.42 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 186.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 198.12 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 200.66 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 187.452 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 183.896 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4e682ff9-7ee6-42d8-9084-5a3cbf554448")
-		)
-		(pin "1"
-			(uuid "dc074813-66a6-4a82-bc8f-cb4ffd273021")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -27051,86 +22519,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GRM033C71C104KE14D_12")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 285.75 87.63 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1fb0860-660e-4f51-84d7-7f3d049cc6d5")
-		(property "Reference" "C22"
-			(at 281.94 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 281.94 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 293.37 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 295.91 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 282.702 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 279.146 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f575eb9c-8ef5-4ea4-85a2-44f36919000b")
-		)
-		(pin "1"
-			(uuid "892d016d-ae99-4d14-912f-7f8c81eb6393")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "CDSQC4148-HF_1")
 		(lib_id "easyeda2kicad:CDSQC4148-HF")
 		(at 85.09 273.05 90)
@@ -27429,86 +22817,6 @@
 			(project "right"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "S11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GRM033C71C104KE14D_9")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 222.25 87.63 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac8676f4-ff06-47ba-83d8-8d8230ffb63d")
-		(property "Reference" "C12"
-			(at 218.44 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 218.44 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 229.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 232.41 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 219.202 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 215.646 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6acbf8a2-7c61-4b34-aeb4-0445dee83ee7")
-		)
-		(pin "1"
-			(uuid "612ce03d-1150-444c-936e-8664c9beb714")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -28039,86 +23347,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GRM033C71C104KE14D_11")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 254 74.93 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b56389b7-1d1a-4cdf-a945-f4bd1e5535cc")
-		(property "Reference" "C17"
-			(at 250.19 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 250.19 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 261.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 264.16 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 250.952 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 247.396 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "77c3b66b-ee22-430d-947a-799cac5fdb1c")
-		)
-		(pin "1"
-			(uuid "3d7132a3-bb68-4ea5-9130-16a43bc687f9")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 24.13 166.37 0)
 		(unit 1)
@@ -28576,166 +23804,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GRM033C71C104KE14D_6")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 209.55 87.63 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfaaf321-76a8-4e3e-9e71-7ff7fc7cea0d")
-		(property "Reference" "C10"
-			(at 205.74 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 205.74 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 217.17 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 219.71 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 206.502 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 202.946 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e251b049-76a3-4b49-bf8f-e9928771f588")
-		)
-		(pin "1"
-			(uuid "f7ca6026-297f-4f30-a31a-bce79f2226dc")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GRM033C71C104KE14D_5")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 196.85 87.63 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0510340-aa38-4738-aa60-7e33602565bf")
-		(property "Reference" "C8"
-			(at 193.04 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 193.04 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 204.47 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 207.01 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 193.802 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 190.246 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da72c0a2-0b2e-42b8-b8f6-49d587552d37")
-		)
-		(pin "1"
-			(uuid "3e2cc904-1c27-407c-b8b9-bf7b80e87146")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "RC0402FR-075K1L_1")
 		(lib_id "easyeda2kicad:RC0402FR-075K1L")
 		(at 354.33 121.92 270)
@@ -29020,86 +24088,6 @@
 			(project "kicad"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GRM033C71C104KE14D_8")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 292.1 74.93 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9242671-5c43-4f3a-af56-17dcb3a99680")
-		(property "Reference" "C23"
-			(at 288.29 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 288.29 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 299.72 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 302.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 289.052 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 285.496 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dcaf621c-f4db-49fa-82a6-32e0b282be68")
-		)
-		(pin "1"
-			(uuid "e01fb7af-a771-48aa-86f5-46bacd05f1b7")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -29456,86 +24444,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GRM033C71C104KE14D_4")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 203.2 74.93 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1be418e-939a-4422-9f08-ed116d7b8682")
-		(property "Reference" "C9"
-			(at 199.39 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 199.39 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 210.82 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 213.36 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 200.152 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 196.596 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0418a71f-5a81-4734-8a65-9ca5a4380f6f")
-		)
-		(pin "1"
-			(uuid "29a7bf17-b5ed-41f7-bf68-29aeb2b83a33")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "LPT67F-P1R2-35-Z_2")
 		(lib_id "easyeda2kicad:LPT67F-P1R2-35-Z")
 		(at 215.9 144.78 0)
@@ -29756,86 +24664,6 @@
 			(project "right"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GRM033C71C104KE14D_7")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 298.45 87.63 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d8da647c-7a20-494d-99be-4e52492c94cf")
-		(property "Reference" "C24"
-			(at 294.64 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 294.64 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 306.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 308.61 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 295.402 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 291.846 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "401770ab-945f-4365-9889-434d24229ae1")
-		)
-		(pin "1"
-			(uuid "d611222c-9568-4a6b-acb1-e61a1a8b70c8")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -30136,86 +24964,6 @@
 			(project "kicad"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GRM033C71C104KE14D_1")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 304.8 74.93 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2d11362-6780-48b3-91f6-c90a6279f38a")
-		(property "Reference" "C25"
-			(at 300.99 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 300.99 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 312.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 314.96 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 301.752 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 298.196 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f5c2b289-1b9d-448e-baae-b3edfc15d0ce")
-		)
-		(pin "1"
-			(uuid "6a044212-9a98-41e4-8a19-14de42366554")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -30670,166 +25418,6 @@
 			(project ""
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GRM033C71C104KE14D_2")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 228.6 74.93 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f149331d-0363-4a68-9fb6-f36a497946be")
-		(property "Reference" "C13"
-			(at 224.79 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 224.79 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 236.22 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 238.76 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 225.552 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 221.996 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1b1aebfb-6a65-431a-a213-a044101ccbea")
-		)
-		(pin "1"
-			(uuid "a8730025-e642-468f-a4ce-0a2d144baa04")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GRM033C71C104KE14D_3")
-		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 273.05 87.63 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3d8a247-33d6-42d5-891f-40dfca95e504")
-		(property "Reference" "C20"
-			(at 269.24 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 269.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 280.67 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 283.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 270.002 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85923"
-			(at 266.446 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5ae698ac-6dd7-44f1-b0d3-4f7dda385560")
-		)
-		(pin "1"
-			(uuid "e2c8de5f-83a7-4c36-8127-c5ec43982509")
-		)
-		(instances
-			(project "kicad"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "C20")
 					(unit 1)
 				)
 			)

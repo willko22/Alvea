@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.6,
-          "width": 2.6
+          "drill": 1.020013,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,24 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "annular_width|48642689|31877400|d0cc2459-510b-4619-bde9-7ecab3d88263|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "annular_width|54442689|31877400|1312c22f-5555-4710-95dd-e9b4b0dad83b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "padstack|48642689|31877400|d0cc2459-510b-4619-bde9-7ecab3d88263|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "padstack|54442689|31877400|1312c22f-5555-4710-95dd-e9b4b0dad83b|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -91,10 +74,10 @@
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "ignore",
-        "extra_footprint": "warning",
+        "extra_footprint": "ignore",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
-        "footprint_symbol_mismatch": "warning",
+        "footprint_filters_mismatch": "warning",
+        "footprint_symbol_mismatch": "ignore",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "ignore",
         "hole_to_hole": "warning",

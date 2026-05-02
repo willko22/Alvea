@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "keys")(type "KiCad")(uri "${KIPRJMOD}/keys.pretty")(options "")(descr ""))
   (lib (name "my")(type "KiCad")(uri "${KIPRJMOD}/my.pretty")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "${EASYEDA2KICAD}/easyeda2kicad.pretty")(options "")(descr ""))
+  (lib (name "images")(type "KiCad")(uri "C:/Users/UserName/any/keyboards/alvea/kicad/images")(options "")(descr ""))
+  (lib (name "hexcaps")(type "KiCad")(uri "${SOL_LIB_DIR}/s-ol.pretty")(options "")(descr ""))
 )

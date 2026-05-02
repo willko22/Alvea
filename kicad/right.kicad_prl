@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 6,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -48,7 +48,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_00000061",
+    "visible_layers": "00000000_00000000_00000000_020000e1",
     "zone_display_mode": 0
   },
   "git": {
@@ -117,7 +117,20 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "right.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": -9,
+          "pos_y": 0,
+          "size_x": 1618,
+          "size_y": 1937
+        }
+      }
+    ]
   },
   "schematic": {
     "selection_filter": {

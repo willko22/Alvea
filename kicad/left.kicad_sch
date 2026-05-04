@@ -7339,6 +7339,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:ERA2AED753X"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R6"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ERA2AED753X"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0402"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_PANASONIC-ERA2AED753X_C491105.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "PANASONIC(松下)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "ERA2AED753X"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C491105"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Resistors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ERA2AED753X_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ERA2AED753X_1_1"
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:FC-13532.768KHZ9PF20PPM"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9802,128 +9958,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:RT0402BRD0737K4L"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R12"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RT0402BRD0737K4L"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ":R0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "37k4"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C852746"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RT0402BRD0737K4L_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "RT0402BRD0737K4L_1_1"
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:S2B-PH-K-S(LF)(SN)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -12021,6 +12055,86 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f857fd6e-9883-4117-a341-6674d2b0e735")
+	)
+	(no_connect
+		(at 372.11 187.96)
+		(uuid "051ac6fb-d440-4f5c-b204-4532d2913ffe")
+	)
+	(no_connect
+		(at 340.36 24.13)
+		(uuid "10ef5b16-be51-4b26-aeb6-b694fb885a7b")
+	)
+	(no_connect
+		(at 340.36 26.67)
+		(uuid "3237c154-3405-414c-b472-f5604b079bd8")
+	)
+	(no_connect
+		(at 387.35 135.89)
+		(uuid "32f6392e-20d2-43cb-b373-8734ba3e4bdc")
+	)
+	(no_connect
+		(at 349.25 187.96)
+		(uuid "337a7ae6-daad-4848-bccf-786b4b67e88f")
+	)
+	(no_connect
+		(at 271.78 184.15)
+		(uuid "65ef0c40-3db1-4b36-9cd6-8136e1167e16")
+	)
+	(no_connect
+		(at 298.45 71.12)
+		(uuid "7ba71595-ac4e-4788-ad50-70657bdde430")
+	)
+	(no_connect
+		(at 260.35 236.22)
+		(uuid "80adf757-ed01-4895-8156-5bfded1cc0eb")
+	)
+	(no_connect
+		(at 340.36 36.83)
+		(uuid "834e94ee-f420-4f76-a38a-95f4d11a9779")
+	)
+	(no_connect
+		(at 340.36 41.91)
+		(uuid "bfe9c0b4-b499-4ad6-b07a-823faab41171")
+	)
+	(no_connect
+		(at 134.62 44.45)
+		(uuid "c51cf7db-0c68-4824-bbdd-1d65cd1eea61")
+	)
+	(no_connect
+		(at 318.77 71.12)
+		(uuid "cf55c0dd-0cb3-4585-9d0b-d7bd63f096aa")
+	)
+	(no_connect
+		(at 271.78 199.39)
+		(uuid "e2274607-0d82-45a5-a6ed-5debd3532830")
+	)
+	(no_connect
+		(at 134.62 46.99)
+		(uuid "e364f48c-705e-4426-9c1f-f02ef8dfc910")
+	)
+	(no_connect
+		(at 340.36 31.75)
+		(uuid "e5bb8d8b-053d-4f18-8061-b1e8398b2899")
+	)
+	(no_connect
+		(at 308.61 71.12)
+		(uuid "eb705238-f532-4396-b37e-9ec64271e97d")
+	)
+	(no_connect
+		(at 340.36 54.61)
+		(uuid "ee19344c-bf6b-468a-970b-46e483373f18")
+	)
+	(no_connect
+		(at 134.62 49.53)
+		(uuid "f92903f3-17a6-4038-a2a8-43553eee1eb5")
+	)
+	(no_connect
+		(at 313.69 71.12)
+		(uuid "fc355051-dcd1-4ce3-8b37-814ad969c6e9")
+	)
+	(no_connect
+		(at 340.36 46.99)
+		(uuid "fd86b9dd-668c-43bd-8b5d-435bb6aa64c6")
 	)
 	(bus_entry
 		(at 118.11 73.66)
@@ -14434,16 +14548,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 243.84) (xy 260.35 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a71ae904-f02a-45bd-8943-81606b9e4e74")
-	)
-	(wire
-		(pts
 			(xy 316.23 120.65) (xy 316.23 128.27)
 		)
 		(stroke
@@ -16563,7 +16667,7 @@
 		(uuid "b4356139-adba-46ce-b0ad-de5935532742")
 	)
 	(label "BAT+"
-		(at 260.35 243.84 180)
+		(at 260.35 238.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17953,7 +18057,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 260.35 238.76 270)
+		(at 260.35 241.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17964,7 +18068,7 @@
 		(fields_autoplaced yes)
 		(uuid "15b93e92-6ae5-46f3-8dce-6684830b150a")
 		(property "Reference" "#PWR022"
-			(at 254 238.76 0)
+			(at 254 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17975,7 +18079,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 238.76 0)
+			(at 256.54 241.3 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17985,7 +18089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 238.76 0)
+			(at 260.35 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17996,7 +18100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 238.76 0)
+			(at 260.35 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18007,7 +18111,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 238.76 0)
+			(at 251.46 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27130,6 +27234,118 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:ERA2AED753X")
+		(at 195.58 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d067e994-3e8e-4d1b-9dd6-beae3c7a1568")
+		(property "Reference" "R6"
+			(at 195.58 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERA2AED753X"
+			(at 195.58 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 195.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_PANASONIC-ERA2AED753X_C491105.html"
+			(at 195.58 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75k"
+			(at 195.58 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "PANASONIC(松下)"
+			(at 195.58 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERA2AED753X"
+			(at 195.58 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C491105"
+			(at 195.58 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5e8bb7c-4096-4f75-894e-ddef49a13846")
+		)
+		(pin "2"
+			(uuid "a6dd85b5-d51d-401f-a6e5-1ca338eea6e7")
+		)
+		(instances
+			(project "left"
+				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 353.06 120.65 90)
 		(unit 1)
@@ -28574,96 +28790,6 @@
 			(project "left"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:RT0402BRD0737K4L")
-		(at 195.58 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fca92d74-e085-4607-a45c-d8ebe112cbc4")
-		(property "Reference" "R15"
-			(at 195.58 26.162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RT0402BRD0737K4L"
-			(at 195.58 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ":R0402"
-			(at 195.58 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "37k4"
-			(at 195.58 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C852746"
-			(at 195.58 28.702 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d2879fe5-27df-484a-b969-0d61ac58b5b3")
-		)
-		(pin "2"
-			(uuid "a87d931b-170b-4020-833d-0505bf52a8a4")
-		)
-		(instances
-			(project "left"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "R15")
 					(unit 1)
 				)
 			)

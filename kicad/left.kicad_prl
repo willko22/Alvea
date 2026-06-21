@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_02000021",
+    "visible_layers": "00000000_00000000_00000000_02000075",
     "zone_display_mode": 0
   },
   "git": {
@@ -121,7 +121,32 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "left.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -13,
+          "pos_y": -13,
+          "size_x": 3226,
+          "size_y": 1930
+        }
+      },
+      {
+        "name": "left.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -13,
+          "pos_y": -13,
+          "size_x": 3226,
+          "size_y": 1930
+        }
+      }
+    ]
   },
   "schematic": {
     "hierarchy_collapsed": [],

@@ -5113,6 +5113,469 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Protection:USBLC6-2SC6"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0.635 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USBLC6-2SC6"
+				(at 0.635 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+				(at 1.27 -8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "usb ethernet video"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_0"
+				(circle
+					(center -1.524 0)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -3.048) (xy -1.016 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+						(xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.048) (xy 2.032 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_1_1"
+				(rectangle
+					(start -2.54 2.794)
+					(end 2.54 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RC0402FR-0710KL_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -11613,12 +12076,6 @@
 		(uuid "11a795d4-3f6b-4db6-9c1a-cc31b4d3ac1c")
 	)
 	(junction
-		(at 63.5 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19dd9578-56b4-488c-a020-6bfdea2b3ce3")
-	)
-	(junction
 		(at 204.47 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11703,6 +12160,12 @@
 		(uuid "48b8f238-c611-4b05-8858-0cbac72a6f2c")
 	)
 	(junction
+		(at 252.73 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c620b3e-c88a-4cfa-9553-ebdf99146af7")
+	)
+	(junction
 		(at 25.4 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11763,12 +12226,6 @@
 		(uuid "65736764-34ac-4371-8c66-eb530dace507")
 	)
 	(junction
-		(at 252.73 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bb3dd3a-a0ee-436d-ae5c-eaf185650010")
-	)
-	(junction
 		(at 259.08 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11781,7 +12238,7 @@
 		(uuid "773c736f-703e-43ba-a079-dc96d718e1c1")
 	)
 	(junction
-		(at 262.89 210.82)
+		(at 262.89 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "808d678f-8870-4029-9d4b-219dd4d07df3")
@@ -11865,6 +12322,12 @@
 		(uuid "9743bfed-6e3c-4aa2-9c44-fb6ee7fae828")
 	)
 	(junction
+		(at 280.67 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "976e5881-e497-4d84-bdb5-56ff63a1521d")
+	)
+	(junction
 		(at 63.5 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11887,6 +12350,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9eb604d8-7408-48b9-88b6-83e2f69ee292")
+	)
+	(junction
+		(at 63.5 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f001fc1-e7c9-47b9-939d-e59da2222d2e")
 	)
 	(junction
 		(at 93.98 87.63)
@@ -11917,6 +12386,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aaf7780f-c5a5-4b3c-9a9d-30415c461611")
+	)
+	(junction
+		(at 271.78 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae6d8f82-512b-41cd-9b01-5e05c64fdbac")
 	)
 	(junction
 		(at 372.11 237.49)
@@ -12089,10 +12564,6 @@
 		(uuid "80adf757-ed01-4895-8156-5bfded1cc0eb")
 	)
 	(no_connect
-		(at 340.36 36.83)
-		(uuid "834e94ee-f420-4f76-a38a-95f4d11a9779")
-	)
-	(no_connect
 		(at 340.36 41.91)
 		(uuid "bfe9c0b4-b499-4ad6-b07a-823faab41171")
 	)
@@ -12111,10 +12582,6 @@
 	(no_connect
 		(at 134.62 46.99)
 		(uuid "e364f48c-705e-4426-9c1f-f02ef8dfc910")
-	)
-	(no_connect
-		(at 340.36 31.75)
-		(uuid "e5bb8d8b-053d-4f18-8061-b1e8398b2899")
 	)
 	(no_connect
 		(at 308.61 71.12)
@@ -12538,7 +13005,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 210.82) (xy 262.89 210.82)
+			(xy 252.73 222.25) (xy 262.89 222.25)
 		)
 		(stroke
 			(width 0)
@@ -12748,7 +13215,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 207.01) (xy 252.73 210.82)
+			(xy 252.73 207.01) (xy 252.73 222.25)
 		)
 		(stroke
 			(width 0)
@@ -13358,16 +13825,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 207.01) (xy 276.86 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dec3c65-98ca-4239-a282-a5bab5f2076e")
-	)
-	(wire
-		(pts
 			(xy 398.78 133.35) (xy 398.78 130.81)
 		)
 		(stroke
@@ -13425,6 +13882,16 @@
 			(type default)
 		)
 		(uuid "45078219-f9a3-4b48-bf19-51e5febd965a")
+	)
+	(wire
+		(pts
+			(xy 280.67 204.47) (xy 280.67 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d79886-3cfe-41da-9d35-ffe730790383")
 	)
 	(bus
 		(pts
@@ -13565,16 +14032,6 @@
 			(type default)
 		)
 		(uuid "591b153f-ef2a-41f5-ac11-cb4539f4f765")
-	)
-	(wire
-		(pts
-			(xy 276.86 207.01) (xy 271.78 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59429da1-014e-4b7a-87d5-812cbd7258cd")
 	)
 	(wire
 		(pts
@@ -14105,16 +14562,6 @@
 			(type default)
 		)
 		(uuid "83283807-856d-4e8e-b8bd-f0adc3ed0d79")
-	)
-	(wire
-		(pts
-			(xy 280.67 181.61) (xy 280.67 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8417863a-1779-423c-bf0c-118246ae4dff")
 	)
 	(wire
 		(pts
@@ -14718,6 +15165,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 181.61) (xy 280.67 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c9aee5-8f5c-48df-9f6f-d9bab16b60b4")
+	)
+	(wire
+		(pts
 			(xy 74.93 67.31) (xy 74.93 50.8)
 		)
 		(stroke
@@ -14878,6 +15335,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 179.07) (xy 280.67 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0de9168-5921-41f4-8bfb-27c386469294")
+	)
+	(wire
+		(pts
 			(xy 313.69 236.22) (xy 325.12 236.22)
 		)
 		(stroke
@@ -14885,16 +15352,6 @@
 			(type default)
 		)
 		(uuid "c18ce748-9e33-44c4-84ba-c14f7c858fc2")
-	)
-	(wire
-		(pts
-			(xy 280.67 204.47) (xy 271.78 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2e70bc9-4337-4937-a960-3ef50b168a70")
 	)
 	(wire
 		(pts
@@ -14925,6 +15382,16 @@
 			(type default)
 		)
 		(uuid "c3769562-80bc-4aae-b801-b6bf181d8639")
+	)
+	(wire
+		(pts
+			(xy 271.78 204.47) (xy 280.67 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c386a433-4543-4a0c-8b5b-de8472fac149")
 	)
 	(wire
 		(pts
@@ -15245,6 +15712,16 @@
 			(type default)
 		)
 		(uuid "da1691fd-4c0d-49d1-93d7-d431f02ced20")
+	)
+	(wire
+		(pts
+			(xy 271.78 207.01) (xy 271.78 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc12d943-dc10-4a61-a753-01abf558d79e")
 	)
 	(wire
 		(pts
@@ -15708,7 +16185,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 210.82) (xy 276.86 210.82)
+			(xy 262.89 222.25) (xy 271.78 222.25)
 		)
 		(stroke
 			(width 0)
@@ -15788,6 +16265,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 222.25) (xy 271.78 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff34334e-da07-4883-9aec-d7c2623c25b1")
+	)
+	(wire
+		(pts
 			(xy 373.38 86.36) (xy 377.19 86.36)
 		)
 		(stroke
@@ -15845,16 +16332,6 @@
 			(justify right bottom)
 		)
 		(uuid "069e4ea3-ca46-44a4-a0c2-b425dad04642")
-	)
-	(label "SCL_BAT"
-		(at 372.11 228.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a54ef22-495f-424b-a879-875a207a0004")
 	)
 	(label "VDD_nRF"
 		(at 326.39 95.25 270)
@@ -15916,16 +16393,6 @@
 		)
 		(uuid "1a63baf1-2eec-4263-9a03-ddc7e89a49c6")
 	)
-	(label "SDA"
-		(at 303.53 71.12 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1c413c67-1088-458d-bf7f-1b60cb94a699")
-	)
 	(label "COL5"
 		(at 340.36 49.53 0)
 		(effects
@@ -15945,6 +16412,16 @@
 			(justify right bottom)
 		)
 		(uuid "20d78149-597f-4538-834e-25e212ca2185")
+	)
+	(label "D-"
+		(at 275.59 217.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21b29b3b-a09a-4cc1-a70a-90bdb9979b0c")
 	)
 	(label "LED14"
 		(at 160.02 62.23 0)
@@ -15976,6 +16453,16 @@
 		)
 		(uuid "253e328e-c96f-471d-ae14-65da3051910e")
 	)
+	(label "SDA"
+		(at 280.67 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2581eb67-a4b8-4ba0-a4d8-6adbd54a9fab")
+	)
 	(label "LED18"
 		(at 160.02 59.69 0)
 		(effects
@@ -15985,6 +16472,16 @@
 			(justify left bottom)
 		)
 		(uuid "259e0ab2-8f9a-4819-991a-f1d619d52abf")
+	)
+	(label "SCL"
+		(at 280.67 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "26816b5c-d5ec-4402-a598-d48c9d4076c1")
 	)
 	(label "BAT+"
 		(at 388.62 130.81 0)
@@ -16005,16 +16502,6 @@
 			(justify right bottom)
 		)
 		(uuid "2f554f28-b683-4daf-baf6-7e2b896a259a")
-	)
-	(label "SDA_BAT"
-		(at 372.11 226.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "315b690a-7557-4641-91a5-b913120fd042")
 	)
 	(label "ROW1"
 		(at 280.67 55.88 180)
@@ -16066,16 +16553,6 @@
 		)
 		(uuid "3c454dbf-8105-486d-8c05-820a768548e4")
 	)
-	(label "SDA_BAT"
-		(at 280.67 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3e8aa57e-9045-4a39-a26b-52419791a3ea")
-	)
 	(label "ROW3"
 		(at 21.59 240.03 180)
 		(effects
@@ -16085,16 +16562,6 @@
 			(justify right bottom)
 		)
 		(uuid "3e97f5cc-9099-4b59-94d1-0ff76ebaaa76")
-	)
-	(label "SCL"
-		(at 306.07 71.12 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "404c42f3-cf4d-4c5f-ab1e-c68473c70d7d")
 	)
 	(label "LED1"
 		(at 118.11 27.94 180)
@@ -16146,6 +16613,16 @@
 		)
 		(uuid "488cba71-8029-408a-b6e6-b44eb848fcde")
 	)
+	(label "D+"
+		(at 275.59 214.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49b0a278-e6cd-4b50-ab7a-53d01aad37de")
+	)
 	(label "PWR_BTN_PRESS"
 		(at 264.16 78.74 0)
 		(effects
@@ -16155,6 +16632,16 @@
 			(justify left bottom)
 		)
 		(uuid "4a099536-8fcc-46c5-b173-5048936a161d")
+	)
+	(label "SWDIO"
+		(at 340.36 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4de7d42c-8756-412c-96b7-9aa08d6897d9")
 	)
 	(label "VBUS"
 		(at 293.37 204.47 0)
@@ -16466,15 +16953,15 @@
 		)
 		(uuid "8fea4ce3-c9bd-45b9-a2a5-8cbb41937cbc")
 	)
-	(label "SCL_BAT"
-		(at 280.67 50.8 180)
+	(label "D-"
+		(at 285.75 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "938c28e2-d202-44a5-a310-a7ef86e95df4")
+		(uuid "9223a4fa-8cc2-43c9-9810-973182973ed4")
 	)
 	(label "LED11"
 		(at 160.02 54.61 0)
@@ -16566,6 +17053,16 @@
 		)
 		(uuid "a1ac6b1a-f46a-428e-856a-d9f929c285a1")
 	)
+	(label "SDA"
+		(at 372.11 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1c3f3e5-713b-4446-bd5e-5c9df14d8f5c")
+	)
 	(label "LED17"
 		(at 118.11 68.58 180)
 		(effects
@@ -16576,6 +17073,16 @@
 		)
 		(uuid "a1dd6812-3f92-48b5-984e-3e5aa4b7cc65")
 	)
+	(label "SCL"
+		(at 372.11 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3b6d70a-249b-444e-8532-68b57103d613")
+	)
 	(label "PWR_BTN"
 		(at 236.22 209.55 270)
 		(effects
@@ -16585,16 +17092,6 @@
 			(justify right bottom)
 		)
 		(uuid "a497915a-86e1-44c0-83b7-33e0de2e13f2")
-	)
-	(label "SWBCLK"
-		(at 280.67 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a9f79672-da5a-4546-9567-fbe5b21b2515")
 	)
 	(label "LED20"
 		(at 118.11 76.2 180)
@@ -16615,6 +17112,16 @@
 			(justify right bottom)
 		)
 		(uuid "abf8fc9f-5eb2-427b-bd7f-9a794902db0e")
+	)
+	(label "SWBCLK"
+		(at 340.36 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acb16138-16c0-465d-9484-abba0407ddbf")
 	)
 	(label "LED4"
 		(at 118.11 35.56 180)
@@ -16706,16 +17213,6 @@
 		)
 		(uuid "bbc0a3e1-0c61-47c7-9be3-64228449e6ca")
 	)
-	(label "SWDIO"
-		(at 280.67 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bd1fecf6-45c5-46e4-b978-3c76cca6b9cf")
-	)
 	(label "PMOS_gate"
 		(at 363.22 137.16 270)
 		(effects
@@ -16765,6 +17262,16 @@
 			(justify right bottom)
 		)
 		(uuid "c8fbbae6-19a0-42a7-882e-3040b9d51a20")
+	)
+	(label "VBUS_RAW"
+		(at 280.67 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd611245-2b28-4045-a396-f18d2cb6e257")
 	)
 	(label "BAT+"
 		(at 306.07 173.99 180)
@@ -16865,6 +17372,16 @@
 			(justify right bottom)
 		)
 		(uuid "dece48f1-de7b-444a-96b8-155d714c2e6a")
+	)
+	(label "D+"
+		(at 285.75 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0b88e1c-abd4-4efb-8f71-4750a1f55ef1")
 	)
 	(label "COL4"
 		(at 144.78 180.34 180)
@@ -17467,7 +17984,7 @@
 				)
 			)
 		)
-		(property "Value" "GRM033C71C104KE14D"
+		(property "Value" "CL05B104KB54PNC"
 			(at 384.81 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -17478,7 +17995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0201"
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 384.81 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -17489,7 +18006,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C307331.pdf"
 			(at 384.81 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -17511,7 +18028,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC Part" "C85923"
+		(property "LCSC Part" "C307331"
 			(at 384.81 150.114 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17560,7 +18077,7 @@
 				)
 			)
 		)
-		(property "Value" "0402CG120F500NT"
+		(property "Value" "0402CG120J500NT"
 			(at 299.72 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17582,7 +18099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_12pF-120R-1-50V_C182477.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C1547.pdf"
 			(at 285.75 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17603,7 +18120,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C182477"
+		(property "LCSC Part" "C1547"
 			(at 301.752 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19611,7 +20128,8 @@
 	(symbol
 		(lib_name "GRM033C71C104KE14D_19")
 		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 373.38 92.71 270)
+		(at 373.38 92.71 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19619,10 +20137,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "33b3ac3f-efa9-442c-8093-d986be4adcb1")
 		(property "Reference" "C6"
-			(at 378.46 90.17 90)
+			(at 368.3 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19631,8 +20148,8 @@
 				)
 			)
 		)
-		(property "Value" "GRM033C71C104KE14D"
-			(at 377.19 92.71 0)
+		(property "Value" "CL05B104KB54PNC"
+			(at 369.57 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19642,8 +20159,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 365.76 92.71 0)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 381 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19653,8 +20170,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
-			(at 363.22 92.71 0)
+		(property "Datasheet" "https://lcsc.com/datasheet/C307331.pdf"
+			(at 383.54 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19665,7 +20182,7 @@
 			)
 		)
 		(property "Description" "100nF"
-			(at 376.428 95.25 90)
+			(at 370.332 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19675,8 +20192,8 @@
 				(justify left)
 			)
 		)
-		(property "LCSC Part" "C85923"
-			(at 379.984 92.71 90)
+		(property "LCSC Part" "C307331"
+			(at 366.776 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19724,7 +20241,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0402FR-0710KL"
+		(property "Value" "0402WGF1002TCE"
 			(at 393.7 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -19746,7 +20263,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C25744.pdf"
 			(at 393.7 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -19767,7 +20284,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60490"
+		(property "LCSC Part" "C25744"
 			(at 393.7 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21206,7 +21723,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0402FR-071ML"
+		(property "Value" "0402WGF1004TCE"
 			(at 220.98 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -21228,7 +21745,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1MR-1004-1_C138033.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C26083.pdf"
 			(at 207.01 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -21249,7 +21766,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C138033"
+		(property "LCSC Part" "C26083"
 			(at 220.726 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22386,7 +22903,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0402FR-075K1L"
+		(property "Value" "0402WGF5101TCE"
 			(at 199.39 47.244 0)
 			(hide yes)
 			(show_name no)
@@ -22408,7 +22925,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_5-1KR-5101-1_C105872.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C25905.pdf"
 			(at 194.31 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -22429,7 +22946,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C105872"
+		(property "LCSC Part" "C25905"
 			(at 207.264 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22478,7 +22995,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0402FR-0710KL"
+		(property "Value" "0402WGF1002TCE"
 			(at 382.27 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -22500,7 +23017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C25744.pdf"
 			(at 382.27 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -22521,7 +23038,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60490"
+		(property "LCSC Part" "C25744"
 			(at 382.27 240.792 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22755,7 +23272,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GRM155C71C105KE11D"
+		(property "Value" "CL05A105KA5NQNC"
 			(at 177.8 48.2599 90)
 			(hide yes)
 			(show_name no)
@@ -22778,7 +23295,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lcsc.com/datasheet/C52923.pdf"
 			(at 181.61 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -22799,7 +23316,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C576449"
+		(property "LCSC Part" "C52923"
 			(at 175.006 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23435,6 +23952,117 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:RC0805FR-072M61L")
+		(at 327.66 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7faa78fe-8282-4e84-b8e9-25a58b570900")
+		(property "Reference" "R5"
+			(at 327.66 115.316 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RTT022614FTH"
+			(at 327.66 117.856 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 327.66 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/C166493.pdf"
+			(at 327.66 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2M61"
+			(at 327.66 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Manufacturer" "RALEC"
+			(at 327.66 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RTT022614FTH"
+			(at 327.66 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C166493"
+			(at 327.66 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59da4cbb-e3ab-41a2-8d4d-24af608aba1d")
+		)
+		(pin "2"
+			(uuid "eca9ab07-82c4-450d-8691-429d74b93132")
+		)
+		(instances
+			(project "left"
+				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 165.1 26.67 0)
 		(mirror x)
@@ -23830,7 +24458,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0402FR-075K1L"
+		(property "Value" "0402WGF5101TCE"
 			(at 288.544 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -23852,7 +24480,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_5-1KR-5101-1_C105872.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C25905.pdf"
 			(at 288.29 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -23873,7 +24501,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C105872"
+		(property "LCSC Part" "C25905"
 			(at 288.29 183.896 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24590,7 +25218,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 262.89 210.82 0)
+		(at 262.89 222.25 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -24602,7 +25230,7 @@
 		(fields_autoplaced yes)
 		(uuid "986a6311-f9d5-40d8-9bf8-e9c8fcc0fc39")
 		(property "Reference" "#PWR012"
-			(at 262.89 217.17 0)
+			(at 262.89 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24613,7 +25241,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 214.63 0)
+			(at 262.89 226.06 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -24623,7 +25251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 210.82 0)
+			(at 262.89 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24634,7 +25262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 210.82 0)
+			(at 262.89 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24645,7 +25273,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 219.71 0)
+			(at 262.89 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24782,7 +25410,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0402FR-071ML"
+		(property "Value" "0402WGF1004TCE"
 			(at 255.27 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -24804,7 +25432,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1MR-1004-1_C138033.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C26083.pdf"
 			(at 269.24 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -24825,7 +25453,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C138033"
+		(property "LCSC Part" "C26083"
 			(at 255.524 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24874,7 +25502,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0402FR-0710KL"
+		(property "Value" "0402WGF1002TCE"
 			(at 389.89 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -24896,7 +25524,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C25744.pdf"
 			(at 389.89 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -24917,7 +25545,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60490"
+		(property "LCSC Part" "C25744"
 			(at 389.89 196.342 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25324,7 +25952,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GRM033C71C104KE14D"
+		(property "Value" "CL05B104KB54PNC"
 			(at 355.6 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -25335,7 +25963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0201"
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 355.6 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -25346,7 +25974,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C307331.pdf"
 			(at 355.6 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -25368,7 +25996,7 @@
 				(justify right)
 			)
 		)
-		(property "LCSC Part" "C85923"
+		(property "LCSC Part" "C307331"
 			(at 358.1399 213.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25417,7 +26045,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0402FR-075K1L"
+		(property "Value" "0402WGF5101TCE"
 			(at 288.544 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -25439,7 +26067,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_5-1KR-5101-1_C105872.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C25905.pdf"
 			(at 288.29 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -25460,7 +26088,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C105872"
+		(property "LCSC Part" "C25905"
 			(at 288.29 199.136 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26198,7 +26826,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GRM155C71C105KE11D"
+		(property "Value" "CL05A105KA5NQNC"
 			(at 179.07 22.8601 90)
 			(hide yes)
 			(show_name no)
@@ -26221,7 +26849,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lcsc.com/datasheet/C52923.pdf"
 			(at 175.26 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -26242,7 +26870,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C576449"
+		(property "LCSC Part" "C52923"
 			(at 181.864 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26397,7 +27025,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0201FR-07680RL"
+		(property "Value" "RC0402FR-07680RL"
 			(at 344.17 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -26408,7 +27036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0201"
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 344.17 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -26419,7 +27047,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_YAGEO-RC0201FR-07680RL_C274876.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C137948.pdf"
 			(at 344.17 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -26440,7 +27068,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C274876"
+		(property "LCSC Part" "C137948"
 			(at 344.17 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26488,7 +27116,7 @@
 				)
 			)
 		)
-		(property "Value" "0402CG120F500NT"
+		(property "Value" "0402CG120J500NT"
 			(at 281.94 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -26510,7 +27138,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_12pF-120R-1-50V_C182477.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C1547.pdf"
 			(at 295.91 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -26531,7 +27159,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C182477"
+		(property "LCSC Part" "C1547"
 			(at 279.908 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26579,7 +27207,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0402FR-075K1L"
+		(property "Value" "0402WGF5101TCE"
 			(at 185.42 47.244 0)
 			(hide yes)
 			(show_name no)
@@ -26601,7 +27229,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_5-1KR-5101-1_C105872.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C25905.pdf"
 			(at 180.34 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -26622,7 +27250,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C105872"
+		(property "LCSC Part" "C25905"
 			(at 193.294 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27054,6 +27682,102 @@
 			(project "left"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 280.67 214.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc7405b8-ce44-4d14-9eac-0f61167ec11d")
+		(property "Reference" "U9"
+			(at 283.972 218.694 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 283.972 221.234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 281.94 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 281.94 222.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 280.67 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "96724642-e1e0-4bfd-8f4e-674035b674e0")
+		)
+		(pin "6"
+			(uuid "1ee77ace-7788-45d1-93bc-49aa3de2d101")
+		)
+		(pin "5"
+			(uuid "044914df-6cd8-4ba2-8900-4ab41f6875a2")
+		)
+		(pin "1"
+			(uuid "d5f62840-3db6-4b44-90e2-cf2bec001e5c")
+		)
+		(pin "4"
+			(uuid "c8e9e8e1-7c4c-45c1-85bc-cea0e500e024")
+		)
+		(pin "2"
+			(uuid "900bea53-3ed5-4630-bed1-f4b8eb1bad1c")
+		)
+		(instances
+			(project "left"
+				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -28253,7 +28977,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0402FR-0710KL"
+		(property "Value" "0402WGF1002TCE"
 			(at 365.76 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -28275,7 +28999,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C25744.pdf"
 			(at 365.76 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -28296,7 +29020,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60490"
+		(property "LCSC Part" "C25744"
 			(at 365.76 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28331,10 +29055,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb91d86a-9d72-461d-9891-b818f6dc3af3")
 		(property "Reference" "C2"
-			(at 345.44 114.3 0)
+			(at 345.44 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28343,7 +29066,7 @@
 				)
 			)
 		)
-		(property "Value" "GRM155Z71A105KE01D"
+		(property "Value" "CL05A105KA5NQNC"
 			(at 345.44 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -28365,7 +29088,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM155Z71A105KE01D_C528974.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C52923.pdf"
 			(at 345.44 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -28376,9 +29099,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 345.44 120.65 0)
-			(hide yes)
+		(property "Description" "1uF"
+			(at 345.44 114.808 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28387,7 +29109,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C528974"
+		(property "LCSC Part" "C52923"
 			(at 345.44 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28513,7 +29235,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0402FR-0710KL"
+		(property "Value" "0402WGF1002TCE"
 			(at 389.89 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -28535,7 +29257,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C25744.pdf"
 			(at 389.89 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -28556,7 +29278,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60490"
+		(property "LCSC Part" "C25744"
 			(at 389.89 187.198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28790,118 +29512,6 @@
 			(project "left"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:RC0805FR-072M61L")
-		(at 327.66 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd76eddd-cb7e-491a-af90-db99b80820bd")
-		(property "Reference" "R5"
-			(at 327.66 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0805FR-072M61L"
-			(at 327.66 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0805"
-			(at 327.66 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_YAGEO-RC0805FR-072M61L_C483050.html"
-			(at 327.66 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2M61"
-			(at 327.66 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 327.66 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0805FR-072M61L"
-			(at 327.66 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C483050"
-			(at 327.66 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "35d6aaae-13a0-4db7-bbc8-1cb232c30330")
-		)
-		(pin "2"
-			(uuid "77f921c3-3ff8-4d84-a989-86c11b7863d0")
-		)
-		(instances
-			(project "left"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "R5")
 					(unit 1)
 				)
 			)

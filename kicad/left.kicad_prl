@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_02000075",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffff0a",
     "zone_display_mode": 0
   },
   "git": {
@@ -123,8 +123,8 @@
   "project": {
     "files": [
       {
-        "name": "left.kicad_sch",
-        "open": true,
+        "name": "left.kicad_pcb",
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
@@ -135,7 +135,7 @@
         }
       },
       {
-        "name": "left.kicad_pcb",
+        "name": "left.kicad_sch",
         "open": false,
         "window": {
           "display": 0,

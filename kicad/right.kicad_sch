@@ -10142,130 +10142,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:RC0402FR-07100KL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R2"
-				(at 1.2701 -2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "RC0402FR-07100KL"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:R0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "100k"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "LCSC Part" "C60491"
-				(at -1.2699 -2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(symbol "RC0402FR-07100KL_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "RC0402FR-07100KL_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:RC0805FR-072M61L"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -12580,10 +12456,6 @@
 		(uuid "6f6bc139-e2e6-4b49-9434-12d033293801")
 	)
 	(no_connect
-		(at 280.67 40.64)
-		(uuid "9350a3c9-f5e4-4522-ba57-4615af74b228")
-	)
-	(no_connect
 		(at 280.67 35.56)
 		(uuid "b1771fa2-8366-41a2-a575-1dca034378b9")
 	)
@@ -12594,6 +12466,10 @@
 	(no_connect
 		(at 280.67 48.26)
 		(uuid "b8d5138b-e0eb-4ed0-a03b-7a340e74722a")
+	)
+	(no_connect
+		(at 340.36 54.61)
+		(uuid "c1cdbc49-2395-4ab1-83b3-311bc6090a80")
 	)
 	(no_connect
 		(at 340.36 41.91)
@@ -16595,16 +16471,6 @@
 		)
 		(uuid "61ec6d95-7b87-4e7d-8bdd-802afb068b19")
 	)
-	(label "PWR_BTN_PRESS"
-		(at 340.36 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b302b1d-f396-43ae-99f1-76f0c839aaac")
-	)
 	(label "LED9"
 		(at 134.62 59.69 180)
 		(effects
@@ -16704,6 +16570,16 @@
 			(justify left bottom)
 		)
 		(uuid "77b950e8-9c8c-47d2-832f-64d4310f328b")
+	)
+	(label "PWR_BTN_PRESS"
+		(at 280.67 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7aa4f993-6250-477e-987b-c4fd6e720bbd")
 	)
 	(label "SDA"
 		(at 199.39 39.37 270)
@@ -17699,99 +17575,6 @@
 			(project "right"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:RC0402FR-07100KL")
-		(at 316.23 139.7 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08aa9d73-0314-40ab-bf9d-31bc3d7a9188")
-		(property "Reference" "R5"
-			(at 318.77 140.9701 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RC0402FR-07100KL"
-			(at 312.42 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0402"
-			(at 323.85 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html"
-			(at 326.39 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100k"
-			(at 316.23 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C60491"
-			(at 318.77 138.4301 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "c08ad81b-58dd-4f5b-bbc8-71276cd01ace")
-		)
-		(pin "2"
-			(uuid "0c6d226f-5496-438d-9162-2d44895d74b9")
-		)
-		(instances
-			(project "right"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -19986,7 +19769,7 @@
 				)
 			)
 		)
-		(property "Value" "GRM033C71C104KE14D"
+		(property "Value" "CL05B104KB54PNC"
 			(at 377.19 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -19997,7 +19780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0201"
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 365.76 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -20008,7 +19791,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM033C71C104KE14D_100nF-104-10-16V_C85923.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C307331.pdf"
 			(at 363.22 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -20030,7 +19813,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC Part" "C85923"
+		(property "LCSC Part" "C307331"
 			(at 379.984 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23241,6 +23024,101 @@
 	(symbol
 		(lib_name "RC0402FR-0710KL_1")
 		(lib_id "easyeda2kicad:RC0402FR-0710KL")
+		(at 316.23 139.7 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87fa366e-10cf-49a0-bb97-a85f6f9efb18")
+		(property "Reference" "R5"
+			(at 318.77 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402WGF1002TCE"
+			(at 312.42 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 323.85 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/C25744.pdf"
+			(at 326.39 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10k"
+			(at 318.77 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 318.77 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "848f711c-d7b8-4733-bfc1-7d98d33ba9fc")
+		)
+		(pin "2"
+			(uuid "b4afc984-b538-4383-a1e6-e4e66c34c9fd")
+		)
+		(instances
+			(project "right"
+				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RC0402FR-0710KL_1")
+		(lib_id "easyeda2kicad:RC0402FR-0710KL")
 		(at 389.89 193.04 0)
 		(mirror x)
 		(unit 1)
@@ -24338,7 +24216,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0402FR-071ML"
+		(property "Value" "0402WGF1004TCE"
 			(at 255.27 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -24360,7 +24238,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1MR-1004-1_C138033.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C26083.pdf"
 			(at 269.24 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -24381,7 +24259,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C138033"
+		(property "LCSC Part" "C26083"
 			(at 255.524 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28144,7 +28022,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC1G17DBVR_SN74LVC1G17DBVR_C7836.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7836.pdf"
 			(at 363.22 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -28569,98 +28447,6 @@
 		)
 	)
 	(symbol
-		(lib_name "RC0402FR-0710KL_1")
-		(lib_id "easyeda2kicad:RC0402FR-0710KL")
-		(at 365.76 86.36 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea91f499-36fd-46de-8cdf-b18cf756ed6e")
-		(property "Reference" "R8"
-			(at 365.76 91.694 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0402FR-0710KL"
-			(at 365.76 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0402"
-			(at 365.76 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
-			(at 365.76 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10k"
-			(at 365.76 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C60490"
-			(at 365.76 89.662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e7aa159-9f65-406c-94f3-27bc5532ea09")
-		)
-		(pin "2"
-			(uuid "f77c411c-5fb2-450a-9f10-09d097fc0259")
-		)
-		(instances
-			(project "right"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 280.67 214.63 0)
 		(unit 1)
@@ -28751,6 +28537,98 @@
 			(project "right"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RC0402FR-0710KL_1")
+		(lib_id "easyeda2kicad:RC0402FR-0710KL")
+		(at 365.76 86.36 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0c7e4fb-082a-4fae-a52d-aa67b1cf75ec")
+		(property "Reference" "R8"
+			(at 365.76 91.694 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0402WGF1002TCE"
+			(at 365.76 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 365.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/C25744.pdf"
+			(at 365.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10k"
+			(at 365.76 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 365.76 89.662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd19d4ff-281e-448f-ae3a-160d88fcde67")
+		)
+		(pin "2"
+			(uuid "bd4f23df-a75f-4496-8766-a4f36a02cb2c")
+		)
+		(instances
+			(project "right"
+				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
+					(reference "R8")
 					(unit 1)
 				)
 			)

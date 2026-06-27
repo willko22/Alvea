@@ -16373,7 +16373,7 @@
 		)
 		(uuid "15e83d7a-e9cd-474d-973e-a41104a89086")
 	)
-	(label "STDBY"
+	(label "CHRG"
 		(at 280.67 38.1 180)
 		(effects
 			(font
@@ -16381,17 +16381,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1822a2a8-0d72-4e5d-b929-59f8fb9115a5")
-	)
-	(label "PWR_BTN_PRESS"
-		(at 280.67 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1a63baf1-2eec-4263-9a03-ddc7e89a49c6")
+		(uuid "1b63fd19-672f-4afc-92c4-ba34685bbfb9")
 	)
 	(label "COL5"
 		(at 340.36 49.53 0)
@@ -16602,6 +16592,26 @@
 			(justify left bottom)
 		)
 		(uuid "4665a178-aa8f-4a3d-a892-e9dccf7a436e")
+	)
+	(label "STDBY"
+		(at 280.67 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4675980d-03f3-4102-b1b7-2187d28b4737")
+	)
+	(label "PWR_BTN_PRESS"
+		(at 280.67 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46b2d9e6-a684-4739-9538-962eaad11d51")
 	)
 	(label "LED19"
 		(at 118.11 73.66 180)
@@ -17322,16 +17332,6 @@
 			(justify left bottom)
 		)
 		(uuid "d1a7d28b-7f15-4623-9355-087c8fed0897")
-	)
-	(label "CHRG"
-		(at 280.67 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d468ea6a-e641-40f3-af7b-d7f83b06d903")
 	)
 	(label "LED5"
 		(at 134.62 59.69 180)
@@ -19884,7 +19884,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RC0402FR-07100KL"
+		(property "Value" "0402WGF1002TCE"
 			(at 312.42 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -19906,7 +19906,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C25744.pdf"
 			(at 326.39 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -19917,7 +19917,7 @@
 				)
 			)
 		)
-		(property "Description" "100k"
+		(property "Description" "10k"
 			(at 316.23 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19927,7 +19927,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60491"
+		(property "LCSC Part" "C307331"
 			(at 318.77 138.4301 90)
 			(show_name no)
 			(do_not_autoplace no)

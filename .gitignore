@@ -1,3 +1,5 @@
-kicad/kicad-backups/
+/kicad/kicad-backups/
 *.lck
-kicad/.history/
+/kicad/.history/
+/kicad/.history_trim/
+/kicad/.history_old/

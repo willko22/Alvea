@@ -10142,130 +10142,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:RC0402FR-07100KL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R2"
-				(at 1.2701 -2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "RC0402FR-07100KL"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:R0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "100k"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "LCSC Part" "C60491"
-				(at -1.2699 -2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(symbol "RC0402FR-07100KL_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "RC0402FR-07100KL_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:RC0805FR-072M61L"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -17628,7 +17504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 74.422 282.448 0)
 			(hide yes)
 			(show_name no)
@@ -18682,7 +18558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 74.422 206.248 0)
 			(hide yes)
 			(show_name no)
@@ -19200,7 +19076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 74.422 257.048 0)
 			(hide yes)
 			(show_name no)
@@ -19452,7 +19328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 36.322 257.048 0)
 			(hide yes)
 			(show_name no)
@@ -19861,99 +19737,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RC0402FR-07100KL")
-		(at 316.23 139.7 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "283507a5-f0bf-47c1-b15e-50813dc427de")
-		(property "Reference" "R3"
-			(at 318.77 140.9701 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0402WGF1002TCE"
-			(at 312.42 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0402"
-			(at 323.85 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/datasheet/C25744.pdf"
-			(at 326.39 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10k"
-			(at 316.23 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C307331"
-			(at 318.77 138.4301 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "7fb24d98-503b-421f-8535-4f8bb02c6e78")
-		)
-		(pin "2"
-			(uuid "f35e5e9c-3121-4854-8ade-46fa381b4134")
-		)
-		(instances
-			(project "left"
-				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "LPT67F-P1R2-35-Z_14")
 		(lib_id "easyeda2kicad:LPT67F-P1R2-35-Z")
 		(at 99.06 87.63 0)
@@ -20128,8 +19911,7 @@
 	(symbol
 		(lib_name "GRM033C71C104KE14D_19")
 		(lib_id "easyeda2kicad:GRM033C71C104KE14D")
-		(at 373.38 92.71 90)
-		(mirror x)
+		(at 373.38 92.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20139,7 +19921,7 @@
 		(dnp no)
 		(uuid "33b3ac3f-efa9-442c-8093-d986be4adcb1")
 		(property "Reference" "C6"
-			(at 368.3 90.17 90)
+			(at 378.46 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20149,7 +19931,7 @@
 			)
 		)
 		(property "Value" "CL05B104KB54PNC"
-			(at 369.57 92.71 0)
+			(at 377.19 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20160,7 +19942,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0402"
-			(at 381 92.71 0)
+			(at 365.76 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20171,7 +19953,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/C307331.pdf"
-			(at 383.54 92.71 0)
+			(at 363.22 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20182,7 +19964,7 @@
 			)
 		)
 		(property "Description" "100nF"
-			(at 370.332 95.25 90)
+			(at 376.428 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20193,7 +19975,7 @@
 			)
 		)
 		(property "LCSC Part" "C307331"
-			(at 366.776 92.71 90)
+			(at 379.984 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20435,7 +20217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 112.522 257.048 0)
 			(hide yes)
 			(show_name no)
@@ -21902,7 +21684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 229.362 204.978 0)
 			(hide yes)
 			(show_name no)
@@ -22233,7 +22015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 36.322 206.248 0)
 			(hide yes)
 			(show_name no)
@@ -22313,7 +22095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 150.622 206.248 0)
 			(hide yes)
 			(show_name no)
@@ -22581,7 +22363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 188.722 206.248 0)
 			(hide yes)
 			(show_name no)
@@ -23373,7 +23155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 150.622 257.048 0)
 			(hide yes)
 			(show_name no)
@@ -23453,7 +23235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 188.722 257.048 0)
 			(hide yes)
 			(show_name no)
@@ -25881,7 +25663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 112.522 282.448 0)
 			(hide yes)
 			(show_name no)
@@ -25924,6 +25706,101 @@
 			(project "left"
 				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
 					(reference "S11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RC0402FR-0710KL_1")
+		(lib_id "easyeda2kicad:RC0402FR-0710KL")
+		(at 316.23 139.7 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6fffba0-9207-4e9a-8c97-7c2e34b86851")
+		(property "Reference" "R3"
+			(at 318.77 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402WGF1002TCE"
+			(at 312.42 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 323.85 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/C25744.pdf"
+			(at 326.39 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10k"
+			(at 318.77 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 318.77 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "3c7365ab-6faf-4993-8c9f-44a56244cd46")
+		)
+		(pin "2"
+			(uuid "c6b503d5-d1b6-4b4a-90e0-e01497b62ead")
+		)
+		(instances
+			(project "left"
+				(path "/3171f1b4-f2dd-4471-8b63-415e18370dba"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -26314,7 +26191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 112.522 206.248 0)
 			(hide yes)
 			(show_name no)
@@ -26754,7 +26631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 188.722 282.448 0)
 			(hide yes)
 			(show_name no)
@@ -27401,7 +27278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 36.322 231.648 0)
 			(hide yes)
 			(show_name no)
@@ -27639,7 +27516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 112.522 231.648 0)
 			(hide yes)
 			(show_name no)
@@ -27909,7 +27786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 74.422 231.648 0)
 			(hide yes)
 			(show_name no)
@@ -28745,7 +28622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 188.722 231.648 0)
 			(hide yes)
 			(show_name no)
@@ -28825,7 +28702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 150.622 282.448 0)
 			(hide yes)
 			(show_name no)
@@ -28905,7 +28782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hexcaps:PG1350_hotswap"
+		(property "Footprint" "hexcaps:PG1350_hotswap_reversed"
 			(at 150.622 231.648 0)
 			(hide yes)
 			(show_name no)

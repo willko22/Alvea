@@ -1,0 +1,58 @@
+Alvea — Licensing
+
+Copyright (c) 2026 Daishin
+
+This repository is split-licensed. Different parts of the project are released
+under different licenses:
+
+  - Hardware design files and documentation
+    (schematics, PCB layout, BOM, DESIGN.md, README.md, images, and all other
+    non-firmware contents)
+      → Creative Commons Attribution-NonCommercial 4.0 International
+        (CC BY-NC 4.0). See LICENSE-HARDWARE below in this file.
+
+  - Firmware
+    (ZMK keymap, board/shield definition, and any other code intended to run
+    on the device — typically under a `firmware/` or `config/` directory)
+      → MIT License. See LICENSE-FIRMWARE.
+
+Rationale: the firmware is built on and distributed with ZMK, which is
+MIT-licensed. Matching ZMK's MIT license keeps the firmware compatible with
+the ZMK ecosystem and free of licensing friction. The non-commercial
+restriction that protects this project from being sold as a product applies to
+the hardware design — the layer someone would actually manufacture.
+
+If any file's license is unclear, the license in the nearest LICENSE file
+(or an SPDX header in the file itself) takes precedence over this summary.
+
+================================================================================
+LICENSE-HARDWARE — Hardware design files & documentation
+================================================================================
+
+Alvea — Creative Commons Attribution-NonCommercial 4.0 International
+
+Copyright (c) 2026 Daishin
+
+The hardware design files and documentation in this repository are licensed
+under the Creative Commons Attribution-NonCommercial 4.0 International License
+(CC BY-NC 4.0).
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format
+  - Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+  - Attribution — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made.
+  - NonCommercial — You may not use the material for commercial purposes.
+
+No additional restrictions — You may not apply legal terms or technological
+measures that legally restrict others from doing anything the license permits.
+
+The full legal text of this license is available at:
+  https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+A human-readable summary is available at:
+  https://creativecommons.org/licenses/by-nc/4.0/
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.

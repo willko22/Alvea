@@ -28515,6 +28515,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" "C7519"
+			(at 280.67 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "c5e89ec4-663b-4fd0-ab06-b7eb72f9d925")
 		)

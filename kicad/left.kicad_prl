@@ -120,32 +120,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "left.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -13,
-          "pos_y": -13,
-          "size_x": 3226,
-          "size_y": 1930
-        }
-      },
-      {
-        "name": "left.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -13,
-          "pos_y": -13,
-          "size_x": 3226,
-          "size_y": 1930
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "hierarchy_collapsed": [],

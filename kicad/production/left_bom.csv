@@ -1,31 +1,24 @@
-"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet","LCSC Part"
-"C1,C3","2","0402CG120J500NT","","","","easyeda2kicad:C0402","https://lcsc.com/datasheet/C1547.pdf","C1547"
-"C2,C7,C8","3","CL05A105KA5NQNC","","","","easyeda2kicad:C0402","https://lcsc.com/datasheet/C52923.pdf","C52923"
-"C4,C6,C9","3","CL05B104KB54PNC","","","","easyeda2kicad:C0402","https://lcsc.com/datasheet/C307331.pdf","C307331"
-"C5","1","ZRB15XR61A475KE01D","","","","easyeda2kicad:C0402","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-ZRB15XR61A475KE01D_C703694.html","C703694"
-"D1","1","NSR05F20NXT5G","","","","easyeda2kicad:DSN2_L1.0-W0.6-RD","https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ON_NSR05F20NXT5G_NSR05F20NXT5G_C94366.html","C94366"
-"D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20","19","CDSQC4148-HF","","","",":X1-DFN1006-2_L1.0-W0.6-RD","","C6341459"
-"F1","1","SMD1206-150C-16V","","","","easyeda2kicad:F1206","","C2760275"
-"H1","1","HC-PM254-8.5H-1X3PW","","","",":HDR-TH_3P-P2.54_HC-PM254-8.5H-1X3PW","","C22373927"
-"L1","1","BRC2016T100K","","","",":IND-SMD_L2.0-W1.6_BRC2016","https://lcsc.com/product-detail/New-Arrivals_Taiyo-Yuden-BRC2016T100K_C223154.html","C223154"
-"Q1","1","PMF170XP,115","","","","easyeda2kicad:SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR","https://lcsc.com/product-detail/MOSFET_Nexperia-PMF170XP-115_C389353.html","C389353"
-"Q2","1","FS8205A_C2830320","","","","easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR","","C2830320"
-"R1,R17","2","0402WGF1004TCE","","","","easyeda2kicad:R0402","https://lcsc.com/datasheet/C26083.pdf","C26083"
-"R2","1","WR04W2494FTL","","","","easyeda2kicad:R0402","https://lcsc.com/product-detail/Others_Walsin-Tech-Corp-WR04W2494FTL_C368359.html","C368359"
-"R3,R4,R7,R8,R12,R13","6","0402WGF1002TCE","","","","easyeda2kicad:R0402","https://lcsc.com/datasheet/C25744.pdf","C25744"
-"R5","1","RTT022614FTH","","","","easyeda2kicad:R0402","https://lcsc.com/datasheet/C166493.pdf","C166493"
-"R6","1","ERA2AED753X","","","","easyeda2kicad:R0402","https://lcsc.com/product-detail/New-Arrivals_PANASONIC-ERA2AED753X_C491105.html","C491105"
-"R9,R10,R14,R16","4","0402WGF5101TCE","","","","easyeda2kicad:R0402","https://lcsc.com/datasheet/C25905.pdf","C25905"
-"R11","1","RC0402FR-07680RL","","","","easyeda2kicad:R0402","https://lcsc.com/datasheet/C137948.pdf","C137948"
-"SW1","1","TS-1088-AR02016","","","","easyeda2kicad:SW-SMD_L3.9-W3.0-P4.45","https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1088-AR02016_C720477.html","C720477"
-"U1","1","SN74LVC1G17DBVR","","","","easyeda2kicad:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR","https://lcsc.com/product-detail/74-Series_TI_SN74LVC1G17DBVR_SN74LVC1G17DBVR_C7836.html","C7836"
-"U2","1","E73-2G4M08S1C","","","",":WIRELM-SMD_E73-2G4M08S1C","https://lcsc.com/product-detail/_Chengdu-Ebyte-Elec-Tech-E73-2G4M08S1C_C356849.html","C356849"
-"U3","1","SN74LVC1G74DQER","","","",":X2SON-8_L1.4-W1.0-P0.35-BL","","C2870716"
-"U4","1","S2B-PH-K-S(LF)(SN)","","","",":CONN-TH_S2B-PH-K-S-LF-SN","https://lcsc.com/product-detail/PH-Connectors_JST-Sales-America_S2B-PH-K-S-LF-SN_JST-Sales-America-S2B-PH-K-S-LF-SN_C173752.html","C173752"
-"U5","1","BL8573CS8TR","","","","easyeda2kicad:ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP","","C2999147"
-"U6","1","DW01A_C42380662","","","",":SOT-23-6_L2.9-W1.6-P0.95-LS2.9-BL","","C42380662"
-"U7","1","LP5024RSMR","","","",":VQFN-32_L4.0-W4.0-P0.40-TL-EP","","C427525"
-"U8","1","MAX17048","","","","PCM_SparkFun-Semiconductor-Standard:DFN-8_2x2mm_P0.5mm_EP1.2x0.8mm","https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf","C2682616"
-"U9","1","USBLC6-2SC6","","","","Package_TO_SOT_SMD:SOT-23-6","https://www.st.com/resource/en/datasheet/usblc6-2.pdf","C7519"
-"USBC1","1","TYPE-C-31-M-12","","","","easyeda2kicad:USB-C_SMD-TYPE-C-31-M-12_1","https://lcsc.com/product-detail/USB-Type-C_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html","C165948"
-"X1","1","FC-13532.768KHZ9PF20PPM","","","","easyeda2kicad:OSC-SMD_L3.2-W1.5","https://lcsc.com/product-detail/SMD-Crystals_EPSON_FC-13532-768KHZ9PF20PPM_FC-135-32-768KHZ-9PF-20PPM_C99010.html","C99010"
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C3",C0402,2,0402CG120J500NT,C1547
+"C2, C7, C8",C0402,3,CL05A105KA5NQNC,C52923
+"C4, C6, C9",C0402,3,CL05B104KB54PNC,C307331
+C5,C0402,1,ZRB15XR61A475KE01D,C703694
+D1,DSN2_L1.0-W0.6-RD,1,NSR05F20NXT5G,C94366
+F1,F1206,1,SMD1206-150C-16V,C2760275
+"FI1, FI2, FI3",,3,Fiducial_1mm_Mask2mm,
+Q1,SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR,1,"PMF170XP,115",C389353
+Q2,SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR,1,FS8205A_C2830320,C2830320
+"R1, R17",R0402,2,0402WGF1004TCE,C26083
+"R10, R14, R16, R9",R0402,4,0402WGF5101TCE,C25905
+R11,R0402,1,RC0402FR-07680RL,C137948
+"R12, R13, R3, R4, R7, R8",R0402,6,0402WGF1002TCE,C25744
+R2,R0402,1,WR04W2494FTL,C368359
+R5,R0402,1,RTT022614FTH,C166493
+R6,R0402,1,ERA2AED753X,C491105
+SW1,SW-SMD_L3.9-W3.0-P4.45,1,TS-1088-AR02016,C720477
+U1,SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR,1,SN74LVC1G17DBVR,C7836
+U5,ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP,1,BL8573CS8TR,C2999147
+U8,DFN-8_2x2mm_P0.5mm_EP1.2x0.8mm,1,MAX17048,C2682616
+U9,SOT-23-6,1,USBLC6-2SC6,C7519
+USBC1,USB-C_SMD-TYPE-C-31-M-12_1,1,TYPE-C-31-M-12,C165948
+X1,OSC-SMD_L3.2-W1.5,1,FC-13532.768KHZ9PF20PPM,C99010

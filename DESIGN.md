@@ -22,7 +22,7 @@
 - **Battery monitoring: resistor-divider ADC → dedicated fuel gauge.** Added **MAX17048 (U8, `C2682616`)** on the I2C bus with an alert line. Removed the old P0.29/AIN5 resistor divider (the previous revision's battery-sense pair) and all ZMK ADC-gain notes. *(Note: the R2/R3 designators are reused in this revision for unrelated parts — see BOM.)*
 - **Added USB ESD protection: USBLC6-2SC6 (U9)** on D+/D−.
 - **Power-circuit ICs renumbered & re-specified** (Schmitt, D-FF, charger, protection — see below).
-- **LED driver unchanged in concept: still LP5024 over I²C** (not I2S — the hardware is I²C constant-current; "I2S" was a misnomer).
+- **LED driver unchanged in concept: still LP5024 over I²C.**
 - **LDO and all discrete RF parts: dropped / absorbed into module.**
 
 ---
